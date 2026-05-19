@@ -1,0 +1,184 @@
+2026-05-18 19:17:07,717 - INFO - Starting Add to Cart Test
+2026-05-18 19:17:07,717 - INFO - Searching medicine: Dolo 650
+2026-05-18 19:17:39,969 - INFO - Starting Add to Cart Test
+2026-05-18 19:17:39,998 - INFO - Searching medicine: Paracetamol
+2026-05-19 08:51:54,639 - INFO - Starting Website Launch Test
+2026-05-19 08:51:54,652 - INFO - Apollo 24/7 website launched successfully
+2026-05-19 08:52:12,885 - INFO - Starting Login Test
+2026-05-19 08:52:12,999 - INFO - Clicked Login Button
+2026-05-19 08:52:13,777 - INFO - Entered Mobile Number: 9031388089
+2026-05-19 08:52:13,882 - INFO - Clicked Continue Button
+2026-05-19 08:52:13,882 - INFO - Waiting for manual OTP entry for 9031388089
+2026-05-19 08:52:34,069 - INFO - Clicked Verify Button
+2026-05-19 08:52:34,069 - INFO - Login completed successfully for 9031388089
+2026-05-19 08:52:54,582 - INFO - Starting Search Medicine Test
+2026-05-19 08:52:54,582 - INFO - Clicking Buy Medicines
+2026-05-19 08:52:58,708 - INFO - Searching medicine: Dolo 650
+2026-05-19 08:53:18,703 - INFO - Starting Add to Cart Test
+2026-05-19 08:53:18,703 - INFO - Searching medicine: Dolo 650
+2026-05-19 09:03:31,288 - INFO - Starting Website Launch Test
+2026-05-19 09:03:31,299 - INFO - Apollo 24/7 website launched successfully
+2026-05-19 09:03:44,419 - INFO - Starting Login Test
+2026-05-19 09:03:44,500 - INFO - Clicked Login Button
+2026-05-19 09:03:45,720 - INFO - Entered Mobile Number: 9031388089
+2026-05-19 09:03:45,790 - INFO - Clicked Continue Button
+2026-05-19 09:03:45,790 - INFO - Waiting for manual OTP entry for 9031388089
+2026-05-19 09:04:46,998 - INFO - Starting Search Medicine Test
+2026-05-19 09:04:46,998 - INFO - Clicking Buy Medicines
+2026-05-19 09:04:56,519 - INFO - Searching medicine: Dolo 650
+2026-05-19 09:04:57,479 - INFO - Validating search results
+2026-05-19 09:05:17,556 - INFO - Positive test case passed
+2026-05-19 09:05:38,066 - INFO - Starting Add to Cart Test
+2026-05-19 09:05:38,068 - INFO - Searching medicine: Dolo 650
+2026-05-19 09:07:21,454 - INFO - Starting Website Launch Test
+2026-05-19 09:07:21,462 - INFO - Apollo 24/7 website launched successfully
+2026-05-19 09:07:34,700 - INFO - Starting Login Test
+2026-05-19 09:07:35,901 - INFO - Clicked Login Button
+2026-05-19 09:07:37,270 - INFO - Entered Mobile Number: 9031388089
+2026-05-19 09:07:37,419 - INFO - Clicked Continue Button
+2026-05-19 09:07:37,420 - INFO - Waiting for manual OTP entry for 9031388089
+2026-05-19 09:07:57,549 - INFO - Clicked Verify Button
+2026-05-19 09:07:57,549 - INFO - Login completed successfully for 9031388089
+2026-05-19 09:08:16,303 - INFO - Starting Search Medicine Test
+2026-05-19 09:08:16,303 - INFO - Clicking Buy Medicines
+2026-05-19 09:08:23,567 - INFO - Searching medicine: Dolo 650
+2026-05-19 09:08:24,547 - INFO - Validating search results
+2026-05-19 09:08:45,015 - INFO - Positive test case passed
+2026-05-19 09:09:04,139 - INFO - Starting Add to Cart Test
+2026-05-19 09:09:04,139 - INFO - Searching medicine: Dolo 650
+2026-05-19 09:17:05,656 - INFO - Starting Website Launch Test
+2026-05-19 09:17:05,674 - INFO - Apollo 24/7 website launched successfully
+2026-05-19 09:17:24,031 - INFO - Starting Login Test
+2026-05-19 09:17:24,117 - INFO - Clicked Login Button
+2026-05-19 09:17:24,864 - INFO - Entered Mobile Number: 9031388089
+2026-05-19 09:17:24,969 - INFO - Clicked Continue Button
+2026-05-19 09:17:24,970 - INFO - Waiting for manual OTP entry for 9031388089
+2026-05-19 09:17:45,071 - INFO - Clicked Verify Button
+2026-05-19 09:17:45,072 - INFO - Login completed successfully for 9031388089
+2026-05-19 09:17:59,068 - INFO - Starting Search Medicine Test
+2026-05-19 09:17:59,068 - INFO - Clicking Buy Medicines
+2026-05-19 09:18:08,239 - INFO - Searching medicine: Dolo 650
+2026-05-19 09:18:09,177 - INFO - Validating search results
+2026-05-19 09:18:29,692 - INFO - Positive test case passed
+2026-05-19 09:18:49,678 - INFO - Starting Add to Cart Test
+2026-05-19 09:18:49,678 - INFO - Searching medicine: Dolo 650
+2026-05-19 09:41:12,915 - INFO - Starting Website Launch Test
+2026-05-19 09:41:12,929 - INFO - Apollo 24/7 website launched successfully
+2026-05-19 09:41:30,097 - INFO - Starting Login Test
+2026-05-19 09:41:30,168 - INFO - Clicked Login Button
+2026-05-19 09:41:30,866 - INFO - Entered Mobile Number: 9031388089
+2026-05-19 09:41:30,934 - INFO - Clicked Continue Button
+2026-05-19 09:41:30,934 - INFO - Waiting for manual OTP entry for 9031388089
+2026-05-19 09:41:51,056 - INFO - Clicked Verify Button
+2026-05-19 09:41:51,056 - INFO - Login completed successfully for 9031388089
+2026-05-19 09:42:08,299 - INFO - Starting Search Medicine Test
+2026-05-19 09:42:08,299 - INFO - Clicking Buy Medicines
+2026-05-19 09:42:15,264 - INFO - Searching medicine: Dolo 650
+2026-05-19 09:42:16,059 - INFO - Validating search results
+2026-05-19 09:42:36,459 - INFO - Positive test case passed
+2026-05-19 09:42:53,991 - INFO - Starting Add to Cart Test
+2026-05-19 09:42:53,991 - INFO - Clicking Buy Medicines
+2026-05-19 09:43:01,033 - INFO - Searching medicine: Dolo 650
+2026-05-19 09:43:01,826 - INFO - Adding medicine to cart from the search grid
+2026-05-19 09:43:03,489 - INFO - Verifying cart update
+2026-05-19 09:48:53,625 - INFO - Starting Website Launch Test
+2026-05-19 09:48:53,635 - INFO - Apollo 24/7 website launched successfully
+2026-05-19 09:49:10,945 - INFO - Starting Login Test
+2026-05-19 09:49:11,001 - INFO - Clicked Login Button
+2026-05-19 09:49:11,662 - INFO - Entered Mobile Number: 9031388089
+2026-05-19 09:49:11,756 - INFO - Clicked Continue Button
+2026-05-19 09:49:11,757 - INFO - Waiting for manual OTP entry for 9031388089
+2026-05-19 09:49:31,874 - INFO - Clicked Verify Button
+2026-05-19 09:49:31,874 - INFO - Login completed successfully for 9031388089
+2026-05-19 09:49:49,341 - INFO - Starting Search Medicine Test
+2026-05-19 09:49:49,341 - INFO - Clicking Buy Medicines
+2026-05-19 09:49:56,610 - INFO - Searching medicine: Dolo 650
+2026-05-19 09:49:57,438 - INFO - Validating search results
+2026-05-19 09:50:31,257 - INFO - Starting Add to Cart Test
+2026-05-19 09:50:31,257 - INFO - Clicking Buy Medicines
+2026-05-19 09:50:43,686 - INFO - Searching medicine: Dolo 650
+2026-05-19 09:50:44,554 - INFO - Adding medicine to cart from the search grid
+2026-05-19 09:50:46,189 - INFO - Verifying cart update
+2026-05-19 10:04:27,869 - INFO - Starting Website Launch Test
+2026-05-19 10:04:27,881 - INFO - Apollo 24/7 website launched successfully
+2026-05-19 10:04:43,267 - INFO - Starting Login Test
+2026-05-19 10:04:44,559 - INFO - Clicked Login Button
+2026-05-19 10:04:46,950 - INFO - Entered Mobile Number: 9031388089
+2026-05-19 10:04:46,988 - INFO - Clicked Continue Button
+2026-05-19 10:04:46,988 - INFO - Waiting for manual OTP entry for 9031388089
+2026-05-19 10:05:16,557 - INFO - Starting Website Launch Test
+2026-05-19 10:05:16,565 - INFO - Apollo 24/7 website launched successfully
+2026-05-19 10:05:45,395 - INFO - Starting Login Test
+2026-05-19 10:05:45,458 - INFO - Clicked Login Button
+2026-05-19 10:05:46,145 - INFO - Entered Mobile Number: 9031388089
+2026-05-19 10:05:46,225 - INFO - Clicked Continue Button
+2026-05-19 10:05:46,226 - INFO - Waiting for manual OTP entry for 9031388089
+2026-05-19 10:06:44,293 - INFO - Starting Search Medicine Test
+2026-05-19 10:06:44,293 - INFO - Clicking Buy Medicines
+2026-05-19 10:06:48,788 - INFO - Searching medicine: Dolo 650
+2026-05-19 11:53:36,120 - INFO - Starting Website Launch Test
+2026-05-19 11:53:36,138 - INFO - Apollo 24/7 website launched successfully
+2026-05-19 11:53:51,603 - INFO - Starting Login Test
+2026-05-19 11:54:26,039 - INFO - Starting Search Medicine Test
+2026-05-19 11:54:26,039 - INFO - Clicking Buy Medicines
+2026-05-19 11:54:26,144 - INFO - Searching medicine: Dolo 650
+2026-05-19 11:54:28,185 - INFO - Validating search results
+2026-05-19 11:54:48,709 - INFO - Positive test case passed
+2026-05-19 11:55:04,958 - INFO - Starting Add to Cart Test
+2026-05-19 11:55:04,959 - INFO - Clicking Buy Medicines
+2026-05-19 11:55:05,052 - INFO - Searching medicine: Dolo 650
+2026-05-19 11:55:06,854 - INFO - Adding medicine to cart from the search grid
+2026-05-19 11:55:08,539 - INFO - Verifying cart update
+2026-05-19 11:56:48,187 - INFO - Starting Website Launch Test
+2026-05-19 11:56:48,214 - INFO - Apollo 24/7 website launched successfully
+2026-05-19 11:57:11,236 - INFO - Starting Login Test
+2026-05-19 11:57:11,311 - INFO - Clicked Login Button
+2026-05-19 11:57:12,026 - INFO - Entered Mobile Number: 9031388089
+2026-05-19 11:57:12,113 - INFO - Clicked Continue Button
+2026-05-19 11:57:12,113 - INFO - Waiting for manual OTP entry for 9031388089
+2026-05-19 11:58:22,644 - INFO - Starting Search Medicine Test
+2026-05-19 11:58:22,644 - INFO - Clicking Buy Medicines
+2026-05-19 11:58:33,861 - INFO - Searching medicine: Dolo 650
+2026-05-19 11:58:34,802 - INFO - Validating search results
+2026-05-19 11:58:55,189 - INFO - Positive test case passed
+2026-05-19 11:59:15,018 - INFO - Starting Add to Cart Test
+2026-05-19 11:59:15,018 - INFO - Clicking Buy Medicines
+2026-05-19 11:59:23,359 - INFO - Searching medicine: Dolo 650
+2026-05-19 11:59:24,229 - INFO - Adding medicine to cart from the search grid
+2026-05-19 11:59:25,868 - INFO - Verifying cart update
+2026-05-19 12:04:28,391 - INFO - Starting Website Launch Test
+2026-05-19 12:04:28,402 - INFO - Apollo 24/7 website launched successfully
+2026-05-19 12:04:49,239 - INFO - Starting Login Test
+2026-05-19 12:04:49,346 - INFO - Clicked Login Button
+2026-05-19 12:04:49,982 - INFO - Entered Mobile Number: 9031388089
+2026-05-19 12:04:50,057 - INFO - Clicked Continue Button
+2026-05-19 12:04:50,057 - INFO - Waiting for manual OTP entry for 9031388089
+2026-05-19 12:05:10,170 - INFO - Clicked Verify Button
+2026-05-19 12:05:10,171 - INFO - Login completed successfully for 9031388089
+2026-05-19 12:05:29,152 - INFO - Starting Search Medicine Test
+2026-05-19 12:05:29,152 - INFO - Clicking Buy Medicines
+2026-05-19 12:05:42,644 - INFO - Searching medicine: Dolo 650
+2026-05-19 12:05:43,504 - INFO - Validating search results
+2026-05-19 12:06:03,871 - INFO - Positive test case passed
+2026-05-19 12:06:26,362 - INFO - Starting Add to Cart Test
+2026-05-19 12:06:26,362 - INFO - Clicking Buy Medicines
+2026-05-19 12:06:31,694 - INFO - Searching medicine: Dolo 650
+2026-05-19 12:06:32,988 - INFO - Adding medicine to cart from the search grid
+2026-05-19 12:06:35,299 - INFO - Verifying cart update
+2026-05-19 13:00:59,472 - INFO - Starting Website Launch Test
+2026-05-19 13:00:59,484 - INFO - Apollo 24/7 website launched successfully
+2026-05-19 13:01:16,416 - INFO - Starting Login Test
+2026-05-19 13:01:16,518 - INFO - Clicked Login Button
+2026-05-19 13:01:17,288 - INFO - Entered Mobile Number: 9031388089
+2026-05-19 13:01:17,380 - INFO - Clicked Continue Button
+2026-05-19 13:01:17,380 - INFO - Waiting for manual OTP entry for 9031388089
+2026-05-19 13:02:16,364 - INFO - Starting Search Medicine Test
+2026-05-19 13:02:16,364 - INFO - Clicking Buy Medicines
+2026-05-19 13:02:23,443 - INFO - Searching medicine: Dolo 650
+2026-05-19 13:02:24,352 - INFO - Validating search results
+2026-05-19 13:02:44,429 - INFO - Positive test case passed
+2026-05-19 13:02:58,066 - INFO - Starting Add to Cart Test
+2026-05-19 13:02:58,066 - INFO - Clicking Buy Medicines
+2026-05-19 13:03:07,330 - INFO - Searching medicine: Dolo 650
+2026-05-19 13:03:08,180 - INFO - Adding medicine to cart from the search grid
+2026-05-19 13:03:09,827 - INFO - Verifying cart update
