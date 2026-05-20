@@ -66,6 +66,7 @@ def test_e2e_user_journey(driver):
 
     logger.info("Opening cart to verify product")
     cart.open_cart()
+
     cart_product_name = cart.get_cart_product_name()
 
     normalized_expected = E2E_PRODUCT.lower().replace(" ", "").replace("-", "")
