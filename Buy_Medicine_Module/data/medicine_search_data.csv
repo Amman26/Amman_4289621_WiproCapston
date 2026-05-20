@@ -1,2 +1,5 @@
 search_text,expected
 Dolo 650,success
+Paracetamol 500mg,success
+Vicks Vaporub,success
+@#$$%^&*,fail
