@@ -1,22 +1,20 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.keys import Keys  # <-- Added Keys import
 from pages.base_page import BasePage
 
 
 class SearchMedicinePage(BasePage):
-    # ================= Locators =================
-
     BUY_MEDICINES_LINK = (
         By.LINK_TEXT,
         "Buy Medicines"
     )
 
-    # 1. The dummy search bar on the home page
     INITIAL_SEARCH_BAR = (
         By.XPATH,
         "//div[@data-placeholder='Search Medicines']"
     )
 
-    # 2. The REAL input field where you type (from your latest screenshot!)
     SEARCH_BOX = (
         By.ID,
         "searchProduct"
@@ -24,20 +22,39 @@ class SearchMedicinePage(BasePage):
 
     SEARCH_RESULTS = (
         By.XPATH,
-        "//div[contains(@class,'ProductCardstyle__ProductCardWrapper')]"
+        "//div[contains(@class,'ProductCardstyle__ProductCardWrapper')] | //a[contains(@href,'/otc/')]"
     )
-
-    # ================= Actions =================
 
     def click_buy_medicines(self):
         self.click_element(self.BUY_MEDICINES_LINK)
 
     def search_medicine(self, medicine_name):
-        # Click the dummy bar to open the search screen
+        # 1. Click the dummy search bar to open the real one
         self.click_element(self.INITIAL_SEARCH_BAR)
 
-        # Type into the real input field using its ID
-        self.enter_text(self.SEARCH_BOX, medicine_name)
+        # 2. Type the medicine name
+        self.enter_text(
+            self.SEARCH_BOX,
+            medicine_name
+        )
+
+        # 3. Hit ENTER to submit the search
+        search_box = self.wait.until(
+            EC.visibility_of_element_located(
+                self.SEARCH_BOX
+            )
+        )
+        search_box.send_keys(Keys.RETURN)
+
+        # 4. Wait for the results to load
+        self.wait.until(
+            EC.presence_of_element_located(
+                self.SEARCH_RESULTS
+            )
+        )
 
     def verify_search_results(self):
-        return self.is_element_visible(self.SEARCH_RESULTS)
+        elements = self.driver.find_elements(
+            *self.SEARCH_RESULTS
+        )
+        return len(elements) > 0
