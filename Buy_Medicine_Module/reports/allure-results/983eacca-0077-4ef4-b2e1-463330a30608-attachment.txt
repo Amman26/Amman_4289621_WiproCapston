@@ -1,2 +1,0 @@
-[32mINFO    [0m ApolloLogger:test_all.py:29 Starting Website Launch Test
-[32mINFO    [0m ApolloLogger:test_all.py:31 Apollo 24/7 website launched successfully

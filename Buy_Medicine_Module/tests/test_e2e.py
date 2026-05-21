@@ -53,12 +53,12 @@ def test_e2e_multiple_items_journey(driver):
         logger.info("Login completed successfully")
         allure.attach(driver.get_screenshot_as_png(), name="2_Login", attachment_type=AttachmentType.PNG)
 
-    # <-- THE LOOP STARTS HERE -->
-    # We take the first 3 products from the CSV and add them one by one
+    # THE LOOP
+    # take first 3 products from the CSV and add
     for index, row in enumerate(medicine_data[:3], start=1):
         medicine_name = row["search_text"]
 
-        # Allure will create a sub-step for each item (e.g., 3.1, 3.2, 3.3)
+        # Allure sub-step
         with allure.step(f"3.{index} Search and Add to Cart: {medicine_name}"):
             logger.info(f"Processing item {index}: {medicine_name}")
 
@@ -78,7 +78,7 @@ def test_e2e_multiple_items_journey(driver):
             # Take a screenshot for each item added
             allure.attach(driver.get_screenshot_as_png(), name=f"Added_{medicine_name}",
                           attachment_type=AttachmentType.PNG)
-    # <-- THE LOOP ENDS HERE -->
+    # LOOP ENDS
 
     with allure.step("4. Open Cart and Proceed to Checkout"):
         logger.info("Opening cart to verify and checkout")
@@ -88,5 +88,5 @@ def test_e2e_multiple_items_journey(driver):
         cart.proceed_to_payment()
         logger.info("Multi-item Checkout process initiated")
 
-        # Final screenshot showing the checkout screen with multiple items
+        # Final screenshot with multiple items
         allure.attach(driver.get_screenshot_as_png(), name="5_Multi_Checkout", attachment_type=AttachmentType.PNG)

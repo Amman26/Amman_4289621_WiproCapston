@@ -19,13 +19,13 @@ medicine_search_data = read_csv_data("data/medicine_search_data.csv")
 product_validation_data = read_csv_data("data/product_validation_data.csv")
 
 
-@allure.epic("Apollo 24/7 E2E Automation")  # <-- ALLURE: Highest level grouping
-@allure.feature("Environment Setup")  # <-- ALLURE: Module grouping
-@allure.story("Website Launch")  # <-- ALLURE: Specific test story
-@allure.title("Verify application launches successfully")  # <-- ALLURE: Readable test name
+@allure.epic("Apollo 24/7 E2E Automation")
+@allure.feature("Environment Setup")
+@allure.story("Website Launch")
+@allure.title("Verify application launches successfully")
 @pytest.mark.order(1)
 def test_website_launch(driver):
-    with allure.step("Validate page title contains 'Apollo'"):  # <-- ALLURE: Logs steps inside the report
+    with allure.step("Validate page title contains 'Apollo'"):
         logger.info("Starting Website Launch Test")
         assert "Apollo" in driver.title
         logger.info("Apollo 24/7 website launched successfully")
@@ -34,7 +34,7 @@ def test_website_launch(driver):
 @allure.epic("Apollo 24/7 E2E Automation")
 @allure.feature("Authentication")
 @allure.story("User Login Process")
-@allure.severity(allure.severity_level.CRITICAL)  # <-- ALLURE: Sets priority
+@allure.severity(allure.severity_level.CRITICAL)
 @pytest.mark.order(2)
 @pytest.mark.parametrize("data", login_data)
 def test_login_page(driver, data):
