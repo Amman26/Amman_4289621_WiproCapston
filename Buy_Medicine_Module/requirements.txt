@@ -3,3 +3,4 @@ webdriver-manager
 pytest
 pytest-order
 openpyxl
+allure-python-commons

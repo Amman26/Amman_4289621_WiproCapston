@@ -1821,3 +1821,46 @@
 2026-05-21 07:53:36,492 - INFO - Opening cart to verify product
 2026-05-21 07:53:38,353 - INFO - Proceeding to payment
 2026-05-21 07:53:38,393 - INFO - E2E Checkout process completed successfully
+2026-05-21 08:13:34,585 - INFO - Starting End-to-End User Journey Test for: Dolo 650
+2026-05-21 08:13:34,590 - INFO - Apollo 24/7 website launched successfully
+2026-05-21 08:13:34,812 - INFO - Initiating Login sequence
+2026-05-21 08:13:55,866 - INFO - Login completed successfully
+2026-05-21 08:13:56,047 - INFO - Checking for and closing promotional popup
+2026-05-21 08:13:58,092 - INFO - Navigating to Buy Medicines
+2026-05-21 08:14:02,479 - INFO - Searching for medicine: Dolo 650
+2026-05-21 08:14:07,728 - INFO - Adding first product from search grid to cart
+2026-05-21 08:14:28,038 - INFO - Opening cart to verify product
+2026-05-21 08:14:30,196 - INFO - Proceeding to payment
+2026-05-21 08:14:30,239 - INFO - E2E Checkout process completed successfully
+2026-05-21 08:14:43,113 - INFO - Starting End-to-End User Journey Test for: Paracetamol 500mg
+2026-05-21 08:14:43,164 - INFO - Apollo 24/7 website launched successfully
+2026-05-21 08:14:43,360 - INFO - Initiating Login sequence
+2026-05-21 08:15:14,270 - INFO - Login completed successfully
+2026-05-21 08:15:14,467 - INFO - Checking for and closing promotional popup
+2026-05-21 08:15:16,529 - INFO - Navigating to Buy Medicines
+2026-05-21 08:15:20,820 - INFO - Searching for medicine: Paracetamol 500mg
+2026-05-21 08:18:36,365 - INFO - Starting Multi-Item End-to-End Test
+2026-05-21 08:18:36,430 - INFO - Apollo 24/7 website launched successfully
+2026-05-21 08:18:36,649 - INFO - Initiating Login sequence
+2026-05-21 08:18:57,691 - INFO - Login completed successfully
+2026-05-21 08:18:58,014 - INFO - Processing item 1: Dolo 650
+2026-05-21 08:19:29,268 - INFO - Processing item 2: Paracetamol 500mg
+2026-05-21 08:19:55,584 - INFO - Processing item 3: Vicks Vaporub
+2026-05-21 08:20:21,441 - INFO - Opening cart to verify and checkout
+2026-05-21 08:20:23,265 - INFO - Multi-item Checkout process initiated
+2026-05-21 08:29:56,118 - INFO - Starting Website Launch Test
+2026-05-21 08:29:56,126 - INFO - Apollo 24/7 website launched successfully
+2026-05-21 08:30:05,856 - INFO - Starting Login Test
+2026-05-21 08:30:05,970 - INFO - Clicked Login Button
+2026-05-21 08:30:06,707 - INFO - Entered Mobile Number: 9031388089
+2026-05-21 08:30:06,820 - INFO - Clicked Continue Button
+2026-05-21 08:30:06,821 - INFO - Waiting for manual OTP entry for 9031388089
+2026-05-21 08:30:27,022 - INFO - Clicked Verify Button
+2026-05-21 08:30:27,022 - INFO - Login completed successfully for 9031388089
+2026-05-21 08:30:36,006 - INFO - Starting Login Test
+2026-05-21 08:30:36,108 - INFO - Clicked Login Button
+2026-05-21 08:30:36,885 - INFO - Entered Mobile Number: 1234
+2026-05-21 08:31:07,466 - INFO - Starting Search Medicine Test
+2026-05-21 08:31:07,466 - INFO - Checking for and closing promotional popup
+2026-05-21 08:31:09,570 - INFO - Clicking Buy Medicines
+2026-05-21 08:31:13,236 - INFO - Searching medicine: Dolo 650

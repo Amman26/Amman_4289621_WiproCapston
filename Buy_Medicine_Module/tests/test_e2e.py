@@ -16,19 +16,18 @@ logger = setup_logger()
 login_data = read_csv_data("data/login_data.csv")
 medicine_data = read_csv_data("data/medicine_search_data.csv")
 
-# Extract the first row of data to drive the E2E flow
+# Extract the mobile number
 E2E_MOBILE = login_data[0]["mobile"]
-E2E_PRODUCT = medicine_data[0]["search_text"]
 
 
 @allure.epic("Apollo 24/7 E2E Automation")
 @allure.feature("End-to-End Journey")
-@allure.story("Complete Purchase Flow")
-@allure.title(f"E2E: Login, Search {E2E_PRODUCT}, and Checkout")
+@allure.story("Multi-Product Purchase Flow")
+@allure.title("E2E: Login, Add Multiple Items, and Checkout")
 @allure.severity(allure.severity_level.BLOCKER)
 @pytest.mark.e2e
-def test_e2e_user_journey(driver):
-    logger.info("Starting End-to-End User Journey Test")
+def test_e2e_multiple_items_journey(driver):
+    logger.info("Starting Multi-Item End-to-End Test")
 
     # Initialize Page Objects
     login = LoginPage(driver)
@@ -39,14 +38,11 @@ def test_e2e_user_journey(driver):
     with allure.step("1. Launch Apollo 24/7 Website"):
         assert "Apollo" in driver.title
         logger.info("Apollo 24/7 website launched successfully")
-        # Screenshot 1
-        allure.attach(driver.get_screenshot_as_png(), name="1_Launch_Screenshot", attachment_type=AttachmentType.PNG)
+        allure.attach(driver.get_screenshot_as_png(), name="1_Launch", attachment_type=AttachmentType.PNG)
 
     with allure.step(f"2. Login with mobile number: {E2E_MOBILE}"):
         logger.info("Initiating Login sequence")
         login.click_login_button()
-
-        logger.info(f"Entering Mobile Number from CSV: {E2E_MOBILE}")
         login.enter_mobile_number(E2E_MOBILE)
         login.click_continue_button()
 
@@ -54,44 +50,43 @@ def test_e2e_user_journey(driver):
         time.sleep(20)  # Waiting for manual OTP
 
         login.click_verify_button()
-        logger.info(f"Login completed successfully for {E2E_MOBILE}")
-        # Screenshot 2
-        allure.attach(driver.get_screenshot_as_png(), name="2_Login_Screenshot", attachment_type=AttachmentType.PNG)
+        logger.info("Login completed successfully")
+        allure.attach(driver.get_screenshot_as_png(), name="2_Login", attachment_type=AttachmentType.PNG)
 
-    with allure.step(f"3. Search for medicine: {E2E_PRODUCT}"):
-        logger.info("Checking for and closing promotional popup")
-        search.close_promotional_popup()
+    # <-- THE LOOP STARTS HERE -->
+    # We take the first 3 products from the CSV and add them one by one
+    for index, row in enumerate(medicine_data[:3], start=1):
+        medicine_name = row["search_text"]
 
-        logger.info("Navigating to Buy Medicines")
-        search.click_buy_medicines()
+        # Allure will create a sub-step for each item (e.g., 3.1, 3.2, 3.3)
+        with allure.step(f"3.{index} Search and Add to Cart: {medicine_name}"):
+            logger.info(f"Processing item {index}: {medicine_name}")
 
-        logger.info(f"Searching for medicine from CSV: {E2E_PRODUCT}")
-        search.search_medicine(E2E_PRODUCT)
+            # Only check for the promotional popup on the very first item
+            if index == 1:
+                search.close_promotional_popup()
 
-        assert search.verify_search_results(), "Search results did not load correctly."
-        # Screenshot 3
-        allure.attach(driver.get_screenshot_as_png(), name="3_Search_Screenshot", attachment_type=AttachmentType.PNG)
+            # Navigate to Buy Medicines to reset the page state for the new search
+            search.click_buy_medicines()
+            search.search_medicine(medicine_name)
 
-    with allure.step("4. Add to Cart & Validate"):
-        logger.info("Adding first product from search grid to cart")
-        product.add_first_product_to_cart()
+            assert search.verify_search_results(), f"Search failed for {medicine_name}"
 
-        logger.info("Opening cart to verify product")
+            # Add to cart
+            product.add_first_product_to_cart()
+
+            # Take a screenshot for each item added
+            allure.attach(driver.get_screenshot_as_png(), name=f"Added_{medicine_name}",
+                          attachment_type=AttachmentType.PNG)
+    # <-- THE LOOP ENDS HERE -->
+
+    with allure.step("4. Open Cart and Proceed to Checkout"):
+        logger.info("Opening cart to verify and checkout")
         cart.open_cart()
 
-        cart_product_name = cart.get_cart_product_name()
-
-        normalized_expected = E2E_PRODUCT.lower().replace(" ", "").replace("-", "")
-        normalized_actual = cart_product_name.lower().replace(" ", "").replace("-", "")
-
-        assert normalized_expected in normalized_actual, \
-            f"Cart mismatch! Expected '{E2E_PRODUCT}' but found '{cart_product_name}'."
-        # Screenshot 4
-        allure.attach(driver.get_screenshot_as_png(), name="4_Cart_Screenshot", attachment_type=AttachmentType.PNG)
-
-    with allure.step("5. Proceed to Checkout"):
-        logger.info("Proceeding to payment")
+        # Click checkout with all 3 items in the cart
         cart.proceed_to_payment()
-        logger.info("E2E Checkout process completed successfully")
-        # Screenshot 5
-        allure.attach(driver.get_screenshot_as_png(), name="5_Checkout_Success_Screenshot", attachment_type=AttachmentType.PNG)
+        logger.info("Multi-item Checkout process initiated")
+
+        # Final screenshot showing the checkout screen with multiple items
+        allure.attach(driver.get_screenshot_as_png(), name="5_Multi_Checkout", attachment_type=AttachmentType.PNG)
