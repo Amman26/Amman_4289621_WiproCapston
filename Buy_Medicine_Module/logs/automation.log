@@ -1773,3 +1773,51 @@
 2026-05-20 22:02:57,992 - INFO - Starting Add to Cart and Checkout Test
 2026-05-20 22:02:57,992 - INFO - Clicking Buy Medicines
 2026-05-20 22:03:01,482 - INFO - Searching medicine: Dolo 650
+2026-05-20 22:08:11,334 - INFO - Starting End-to-End User Journey Test
+2026-05-20 22:08:11,359 - INFO - Apollo 24/7 website launched successfully
+2026-05-20 22:08:11,359 - INFO - Initiating Login sequence
+2026-05-20 22:08:11,624 - INFO - Entering Mobile Number from CSV: 9031388089
+2026-05-20 22:08:37,067 - INFO - Login completed successfully for 9031388089
+2026-05-20 22:08:37,069 - INFO - Checking for and closing promotional popup
+2026-05-20 22:08:39,146 - INFO - Navigating to Buy Medicines
+2026-05-20 22:08:43,323 - INFO - Searching for medicine from CSV: Dolo 650
+2026-05-20 22:08:48,451 - INFO - Adding first product from search grid to cart
+2026-05-20 22:09:08,883 - INFO - Opening cart to verify product
+2026-05-20 22:09:11,266 - INFO - Proceeding to payment
+2026-05-20 22:09:11,306 - INFO - E2E Checkout process completed successfully
+2026-05-20 22:10:29,191 - INFO - Starting End-to-End User Journey Test
+2026-05-20 22:10:29,198 - INFO - Apollo 24/7 website launched successfully
+2026-05-20 22:10:29,198 - INFO - Initiating Login sequence
+2026-05-20 22:10:29,279 - INFO - Entering Mobile Number from CSV: 9031388089
+2026-05-20 22:10:58,071 - INFO - Login completed successfully for 9031388089
+2026-05-20 22:10:58,073 - INFO - Checking for and closing promotional popup
+2026-05-20 22:11:00,120 - INFO - Navigating to Buy Medicines
+2026-05-20 22:11:04,679 - INFO - Searching for medicine from CSV: Dolo 650
+2026-05-20 22:11:10,548 - INFO - Adding first product from search grid to cart
+2026-05-20 22:11:31,040 - INFO - Opening cart to verify product
+2026-05-20 22:11:33,349 - INFO - Proceeding to payment
+2026-05-20 22:11:33,405 - INFO - E2E Checkout process completed successfully
+2026-05-21 07:41:20,596 - INFO - Starting End-to-End User Journey Test
+2026-05-21 07:41:20,613 - INFO - Apollo 24/7 website launched successfully
+2026-05-21 07:41:20,613 - INFO - Initiating Login sequence
+2026-05-21 07:41:20,733 - INFO - Entering Mobile Number from CSV: 9031388089
+2026-05-21 07:41:41,764 - INFO - Login completed successfully for 9031388089
+2026-05-21 07:41:41,766 - INFO - Checking for and closing promotional popup
+2026-05-21 07:41:43,910 - INFO - Navigating to Buy Medicines
+2026-05-21 07:41:48,026 - INFO - Searching for medicine from CSV: Dolo 650
+2026-05-21 07:41:53,195 - INFO - Adding first product from search grid to cart
+2026-05-21 07:42:13,617 - INFO - Opening cart to verify product
+2026-05-21 07:42:15,693 - INFO - Proceeding to payment
+2026-05-21 07:42:15,727 - INFO - E2E Checkout process completed successfully
+2026-05-21 07:52:45,012 - INFO - Starting End-to-End User Journey Test
+2026-05-21 07:52:45,027 - INFO - Apollo 24/7 website launched successfully
+2026-05-21 07:52:45,027 - INFO - Initiating Login sequence
+2026-05-21 07:52:45,139 - INFO - Entering Mobile Number from CSV: 9031388089
+2026-05-21 07:53:06,053 - INFO - Login completed successfully for 9031388089
+2026-05-21 07:53:06,053 - INFO - Checking for and closing promotional popup
+2026-05-21 07:53:08,114 - INFO - Navigating to Buy Medicines
+2026-05-21 07:53:11,466 - INFO - Searching for medicine from CSV: Dolo 650
+2026-05-21 07:53:16,145 - INFO - Adding first product from search grid to cart
+2026-05-21 07:53:36,492 - INFO - Opening cart to verify product
+2026-05-21 07:53:38,353 - INFO - Proceeding to payment
+2026-05-21 07:53:38,393 - INFO - E2E Checkout process completed successfully
