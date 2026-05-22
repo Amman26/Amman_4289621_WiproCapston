@@ -12,7 +12,7 @@ from utils.logger import setup_logger
 
 logger = setup_logger()
 
-# Load CSV test data dynamically
+# Load CSV test data 
 login_data = read_csv_data("data/login_data.csv")
 medicine_data = read_csv_data("data/medicine_search_data.csv")
 

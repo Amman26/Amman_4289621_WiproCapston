@@ -2028,3 +2028,357 @@
 2026-05-21 12:47:10,108 - INFO - Processing item 3: Vicks Vaporub
 2026-05-21 12:47:35,288 - INFO - Opening cart to verify and checkout
 2026-05-21 12:47:37,482 - INFO - Multi-item Checkout process initiated
+2026-05-21 20:13:14,387 - INFO - Starting Website Launch Test
+2026-05-21 20:13:14,418 - INFO - Apollo 24/7 website launched successfully
+2026-05-21 20:13:23,221 - INFO - Starting Login Test
+2026-05-21 20:13:23,362 - INFO - Clicked Login Button
+2026-05-21 20:13:24,091 - INFO - Entered Mobile Number: 9031388089
+2026-05-21 20:13:24,202 - INFO - Clicked Continue Button
+2026-05-21 20:13:24,210 - INFO - Waiting for manual OTP entry for 9031388089
+2026-05-21 20:13:44,302 - INFO - Clicked Verify Button
+2026-05-21 20:13:44,302 - INFO - Login completed successfully for 9031388089
+2026-05-21 20:13:53,501 - INFO - Starting Login Test
+2026-05-21 20:13:53,605 - INFO - Clicked Login Button
+2026-05-21 20:13:54,308 - INFO - Entered Mobile Number: 1234
+2026-05-21 20:14:22,756 - INFO - Starting Search Medicine Test
+2026-05-21 20:14:22,756 - INFO - Checking for and closing promotional popup
+2026-05-21 20:14:24,794 - INFO - Clicking Buy Medicines
+2026-05-21 20:14:27,225 - INFO - Searching medicine: Dolo 650
+2026-05-21 20:14:31,456 - INFO - Validating search results
+2026-05-21 20:14:31,491 - INFO - Positive test case passed
+2026-05-21 20:14:39,765 - INFO - Starting Search Medicine Test
+2026-05-21 20:14:39,765 - INFO - Checking for and closing promotional popup
+2026-05-21 20:14:41,795 - INFO - Clicking Buy Medicines
+2026-05-21 20:14:45,775 - INFO - Searching medicine: Paracetamol 500mg
+2026-05-21 20:34:10,139 - INFO - Starting Website Launch Test
+2026-05-21 20:34:10,163 - INFO - Apollo 24/7 website launched successfully
+2026-05-21 20:34:18,573 - INFO - Starting Login Test
+2026-05-21 20:34:18,717 - INFO - Clicked Login Button
+2026-05-21 20:34:19,443 - INFO - Entered Mobile Number: 9031388089
+2026-05-21 20:34:19,527 - INFO - Clicked Continue Button
+2026-05-21 20:34:19,527 - INFO - Waiting for manual OTP entry
+2026-05-21 20:34:39,629 - INFO - Clicked Verify Button
+2026-05-21 20:34:39,645 - INFO - Homepage loaded successfully after login
+2026-05-21 20:34:47,727 - INFO - Starting Login Test
+2026-05-21 20:34:47,851 - INFO - Clicked Login Button
+2026-05-21 20:34:48,541 - INFO - Entered Mobile Number: 1234
+2026-05-21 20:35:18,284 - INFO - Starting Search Medicine Test
+2026-05-21 20:35:18,302 - INFO - Page loaded successfully
+2026-05-21 20:35:20,361 - INFO - Popup handled successfully
+2026-05-21 20:35:24,317 - INFO - Clicked Buy Medicines
+2026-05-21 20:36:09,110 - INFO - Starting Website Launch Test
+2026-05-21 20:36:09,122 - INFO - Apollo 24/7 website launched successfully
+2026-05-21 20:36:17,732 - INFO - Starting Login Test
+2026-05-21 20:36:17,850 - INFO - Clicked Login Button
+2026-05-21 20:36:18,482 - INFO - Entered Mobile Number: 9031388089
+2026-05-21 20:36:18,538 - INFO - Clicked Continue Button
+2026-05-21 20:36:18,539 - INFO - Waiting for manual OTP entry for 9031388089
+2026-05-21 20:36:38,653 - INFO - Clicked Verify Button
+2026-05-21 20:36:38,653 - INFO - Login completed successfully for 9031388089
+2026-05-21 20:36:47,611 - INFO - Starting Login Test
+2026-05-21 20:36:47,722 - INFO - Clicked Login Button
+2026-05-21 20:36:48,455 - INFO - Entered Mobile Number: 1234
+2026-05-21 20:37:17,428 - INFO - Starting Search Medicine Test
+2026-05-21 20:37:17,442 - INFO - Checking for and closing promotional popup
+2026-05-21 20:37:19,495 - INFO - Clicking Buy Medicines
+2026-05-21 20:37:23,197 - INFO - Searching medicine: Dolo 650
+2026-05-21 20:37:27,289 - INFO - Validating search results
+2026-05-21 20:37:27,317 - INFO - Positive test case passed
+2026-05-21 20:37:39,744 - INFO - Starting Search Medicine Test
+2026-05-21 20:37:39,744 - INFO - Checking for and closing promotional popup
+2026-05-21 20:37:41,782 - INFO - Clicking Buy Medicines
+2026-05-21 20:37:45,534 - INFO - Searching medicine: Paracetamol 500mg
+2026-05-21 20:37:49,520 - INFO - Validating search results
+2026-05-21 20:37:49,560 - INFO - Positive test case passed
+2026-05-21 20:37:57,301 - INFO - Starting Search Medicine Test
+2026-05-21 20:37:57,301 - INFO - Checking for and closing promotional popup
+2026-05-21 20:37:59,323 - INFO - Clicking Buy Medicines
+2026-05-21 20:38:03,121 - INFO - Searching medicine: Vicks Vaporub
+2026-05-21 20:38:33,243 - INFO - Starting Search Medicine Test
+2026-05-21 20:38:33,243 - INFO - Checking for and closing promotional popup
+2026-05-21 20:38:35,274 - INFO - Clicking Buy Medicines
+2026-05-21 20:38:37,704 - INFO - Searching medicine: @#$$%^&*
+2026-05-21 20:39:07,821 - INFO - Starting Add to Cart and Checkout Test
+2026-05-21 21:04:12,323 - INFO - ========== WEBSITE LAUNCH TEST ==========
+2026-05-21 21:04:12,538 - INFO - Apollo Website Launch Test Passed
+2026-05-21 21:04:21,603 - INFO - ========== LOGIN TEST STARTED ==========
+2026-05-21 21:04:21,709 - INFO - Clicked Login Button
+2026-05-21 21:04:22,501 - INFO - Entered Mobile Number : 9031388089
+2026-05-21 21:04:22,629 - INFO - Clicked Continue Button
+2026-05-21 21:04:22,629 - INFO - Executing Positive Login Test
+2026-05-21 21:04:22,631 - INFO - Waiting for OTP Entry
+2026-05-21 21:04:53,701 - INFO - Clicked Verify Button
+2026-05-21 21:04:54,027 - INFO - Positive Login Test Passed
+2026-05-21 21:05:04,163 - INFO - ========== LOGIN TEST STARTED ==========
+2026-05-21 21:05:04,536 - INFO - Clicked Login Button
+2026-05-21 21:05:05,272 - INFO - Entered Mobile Number : 1234
+2026-05-21 21:05:34,180 - INFO - ========== MEDICINE SEARCH TEST ==========
+2026-05-21 21:05:36,191 - INFO - Promotional Popup Closed
+2026-05-21 21:05:40,414 - INFO - Clicked Buy Medicines
+2026-05-21 21:09:44,472 - INFO - ========== WEBSITE LAUNCH TEST ==========
+2026-05-21 21:09:44,786 - INFO - Apollo Website Launch Test Passed
+2026-05-21 21:09:53,784 - INFO - ========== LOGIN TEST STARTED ==========
+2026-05-21 21:09:53,888 - INFO - Clicked Login Button
+2026-05-21 21:09:54,647 - INFO - Entered Mobile Number : 9031388089
+2026-05-21 21:09:54,766 - INFO - Clicked Continue Button
+2026-05-21 21:09:54,766 - INFO - Executing Positive Login Test
+2026-05-21 21:09:54,768 - INFO - Waiting for OTP Entry
+2026-05-21 21:10:14,886 - INFO - Waiting for homepage to load
+2026-05-21 21:10:23,769 - INFO - ========== LOGIN TEST STARTED ==========
+2026-05-21 21:10:23,893 - INFO - Clicked Login Button
+2026-05-21 21:10:24,590 - INFO - Entered Mobile Number : 1234
+2026-05-21 21:10:54,731 - INFO - ========== MEDICINE SEARCH TEST ==========
+2026-05-21 21:10:56,776 - INFO - Promotional Popup Closed
+2026-05-21 21:11:00,951 - INFO - Clicked Buy Medicines
+2026-05-21 21:11:21,916 - INFO - ========== MEDICINE SEARCH TEST ==========
+2026-05-21 21:11:23,949 - INFO - Promotional Popup Closed
+2026-05-21 21:11:27,968 - INFO - Clicked Buy Medicines
+2026-05-21 21:12:43,859 - INFO - ========== WEBSITE LAUNCH TEST ==========
+2026-05-21 21:12:44,147 - INFO - Apollo Website Launch Test Passed
+2026-05-21 21:12:52,500 - INFO - ========== LOGIN TEST STARTED ==========
+2026-05-21 21:12:52,623 - INFO - Clicked Login Button
+2026-05-21 21:12:53,377 - INFO - Entered Mobile Number : 9031388089
+2026-05-21 21:12:53,486 - INFO - Clicked Continue Button
+2026-05-21 21:12:53,487 - INFO - Executing Positive Login Test
+2026-05-21 21:12:53,487 - INFO - Waiting for OTP Entry
+2026-05-21 21:13:05,611 - INFO - Clicked Verify Button
+2026-05-21 21:13:05,859 - INFO - Positive Login Test Passed
+2026-05-21 21:13:16,293 - INFO - ========== LOGIN TEST STARTED ==========
+2026-05-21 21:13:16,397 - INFO - Clicked Login Button
+2026-05-21 21:13:17,131 - INFO - Entered Mobile Number : 1234
+2026-05-21 21:13:47,076 - INFO - ========== MEDICINE SEARCH TEST ==========
+2026-05-21 21:13:49,156 - INFO - Promotional Popup Closed
+2026-05-21 21:13:50,647 - INFO - Clicked Buy Medicines
+2026-05-21 21:14:17,077 - INFO - ========== MEDICINE SEARCH TEST ==========
+2026-05-21 21:14:19,139 - INFO - Promotional Popup Closed
+2026-05-21 21:14:21,661 - INFO - Clicked Buy Medicines
+2026-05-21 21:14:28,401 - INFO - Searched Medicine : Paracetamol 500mg
+2026-05-21 21:14:28,626 - INFO - Positive Search Test Passed
+2026-05-21 21:14:38,671 - INFO - ========== MEDICINE SEARCH TEST ==========
+2026-05-21 21:14:40,722 - INFO - Promotional Popup Closed
+2026-05-21 21:14:51,700 - INFO - Clicked Buy Medicines
+2026-05-21 21:15:26,265 - INFO - ========== MEDICINE SEARCH TEST ==========
+2026-05-21 21:15:28,405 - INFO - Promotional Popup Closed
+2026-05-21 21:15:35,276 - INFO - Clicked Buy Medicines
+2026-05-21 21:25:35,151 - INFO - ========== WEBSITE LAUNCH TEST ==========
+2026-05-21 21:25:35,458 - INFO - Apollo Website Launch Test Passed
+2026-05-21 21:25:47,557 - INFO - ========== LOGIN TEST STARTED ==========
+2026-05-21 21:25:47,699 - INFO - Clicked Login Button
+2026-05-21 21:25:48,436 - INFO - Entered Mobile Number : 9031388089
+2026-05-21 21:25:48,587 - INFO - Clicked Continue Button
+2026-05-21 21:25:48,588 - INFO - Executing Positive Login Test
+2026-05-21 21:25:48,588 - INFO - Waiting for OTP Entry
+2026-05-21 21:26:00,779 - INFO - Clicked Verify Button
+2026-05-21 21:26:01,049 - INFO - Positive Login Test Passed
+2026-05-21 21:26:11,701 - INFO - ========== LOGIN TEST STARTED ==========
+2026-05-21 21:26:11,791 - INFO - Clicked Login Button
+2026-05-21 21:26:12,524 - INFO - Entered Mobile Number : 1234
+2026-05-21 21:26:43,830 - INFO - ========== MEDICINE SEARCH TEST ==========
+2026-05-21 21:26:45,891 - INFO - Promotional Popup Closed
+2026-05-21 21:26:48,989 - INFO - Clicked Buy Medicines
+2026-05-21 21:26:53,319 - INFO - Searched Medicine : Dolo 650
+2026-05-21 21:26:53,508 - INFO - Positive Search Test Passed
+2026-05-21 21:27:01,665 - INFO - ========== MEDICINE SEARCH TEST ==========
+2026-05-21 21:27:03,690 - INFO - Promotional Popup Closed
+2026-05-21 21:27:09,857 - INFO - Clicked Buy Medicines
+2026-05-21 21:27:15,349 - INFO - Searched Medicine : Paracetamol 500mg
+2026-05-21 21:27:15,571 - INFO - Positive Search Test Passed
+2026-05-21 21:27:25,792 - INFO - ========== MEDICINE SEARCH TEST ==========
+2026-05-21 21:27:27,934 - INFO - Promotional Popup Closed
+2026-05-21 21:27:34,153 - INFO - Clicked Buy Medicines
+2026-05-21 21:28:08,517 - INFO - ========== MEDICINE SEARCH TEST ==========
+2026-05-21 21:28:10,565 - INFO - Promotional Popup Closed
+2026-05-21 21:28:16,288 - INFO - Clicked Buy Medicines
+2026-05-21 21:28:38,639 - INFO - Searched Medicine : @#$$%^&*
+2026-05-21 21:28:49,564 - INFO - ========== ADD TO CART TEST ==========
+2026-05-21 21:29:00,709 - INFO - Searched Product : Dolo 650
+2026-05-21 21:29:21,363 - INFO - Product Added To Cart
+2026-05-21 21:29:23,849 - INFO - Cart Opened Successfully
+2026-05-21 21:29:25,048 - INFO - Product Found In Cart : Dolo-650 Tablet
+2026-05-21 21:29:25,161 - INFO - Add To Cart Test Passed
+2026-05-21 21:29:25,246 - INFO - Checkout Process Initiated Successfully
+2026-05-21 21:29:36,084 - INFO - ========== ADD TO CART TEST ==========
+2026-05-21 21:29:49,391 - INFO - Searched Product : Paracetamol 500mg
+2026-05-21 21:30:09,648 - INFO - Product Added To Cart
+2026-05-21 21:30:12,571 - INFO - Cart Opened Successfully
+2026-05-21 21:30:13,740 - INFO - Product Found In Cart : Auspara 500 Tablet
+2026-05-21 21:30:24,700 - INFO - ========== ADD TO CART TEST ==========
+2026-05-21 21:30:39,396 - INFO - Searched Product : InvalidMedicine123
+2026-05-21 21:31:07,997 - INFO - Product Added To Cart
+2026-05-21 21:31:10,042 - INFO - Cart Opened Successfully
+2026-05-21 21:31:40,353 - INFO - ========== INVALID MEDICINE TEST ==========
+2026-05-21 21:35:22,888 - INFO - Starting Multi-Item End-to-End Test
+2026-05-21 21:35:22,983 - INFO - Apollo 24/7 website launched successfully
+2026-05-21 21:35:23,260 - INFO - Initiating Login sequence
+2026-05-21 21:35:44,396 - INFO - Login completed successfully
+2026-05-21 21:35:44,626 - INFO - Processing item 1: Dolo 650
+2026-05-21 21:36:21,456 - INFO - Processing item 2: Paracetamol 500mg
+2026-05-21 21:36:47,401 - INFO - Processing item 3: Vicks Vaporub
+2026-05-21 21:37:11,943 - INFO - Opening cart to verify and checkout
+2026-05-21 21:37:15,839 - INFO - Multi-item Checkout process initiated
+2026-05-22 07:45:59,754 - INFO - ========== WEBSITE LAUNCH TEST ==========
+2026-05-22 07:46:00,017 - INFO - Apollo Website Launch Test Passed
+2026-05-22 07:46:09,673 - INFO - ========== POSITIVE LOGIN TEST ==========
+2026-05-22 07:46:10,000 - INFO - Clicked Login Button
+2026-05-22 07:46:12,994 - INFO - Entered Mobile Number : 9031388089
+2026-05-22 07:46:13,204 - INFO - Clicked Continue Button
+2026-05-22 07:46:13,204 - INFO - Waiting For Manual OTP Entry
+2026-05-22 07:46:31,401 - INFO - Clicked Verify Button
+2026-05-22 07:46:31,628 - INFO - Positive Login Test Passed
+2026-05-22 07:46:42,442 - INFO - ========== NEGATIVE LOGIN TEST ==========
+2026-05-22 07:46:42,596 - INFO - Clicked Login Button
+2026-05-22 07:46:43,347 - INFO - Entered Mobile Number : 1234
+2026-05-22 07:47:13,379 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-22 07:47:15,443 - INFO - Promotional Popup Closed
+2026-05-22 07:47:19,651 - INFO - Clicked Buy Medicines
+2026-05-22 07:47:24,019 - INFO - Searched Medicine : Dolo 650
+2026-05-22 07:47:24,232 - INFO - Positive Search Test Passed
+2026-05-22 07:47:34,843 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-22 07:47:36,882 - INFO - Promotional Popup Closed
+2026-05-22 07:47:41,492 - INFO - Clicked Buy Medicines
+2026-05-22 07:50:08,852 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-22 07:50:10,930 - INFO - Promotional Popup Closed
+2026-05-22 07:50:14,566 - INFO - Clicked Buy Medicines
+2026-05-22 07:55:48,062 - INFO - ========== WEBSITE LAUNCH TEST ==========
+2026-05-22 07:55:48,260 - INFO - Apollo Website Launch Test Passed
+2026-05-22 07:56:00,290 - INFO - ========== POSITIVE LOGIN TEST ==========
+2026-05-22 07:56:00,477 - INFO - Clicked Login Button
+2026-05-22 07:56:01,209 - INFO - Entered Mobile Number : 9031388089
+2026-05-22 07:56:01,317 - INFO - Clicked Continue Button
+2026-05-22 07:56:01,317 - INFO - Waiting For Manual OTP Entry
+2026-05-22 07:56:19,514 - INFO - Clicked Verify Button
+2026-05-22 07:56:19,946 - INFO - Positive Login Test Passed
+2026-05-22 07:56:29,235 - INFO - ========== NEGATIVE LOGIN TEST ==========
+2026-05-22 07:56:29,320 - INFO - Clicked Login Button
+2026-05-22 07:56:30,048 - INFO - Entered Mobile Number : 1234
+2026-05-22 07:56:59,669 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-22 07:57:01,693 - INFO - Promotional Popup Closed
+2026-05-22 07:57:05,672 - INFO - Clicked Buy Medicines
+2026-05-22 07:57:07,689 - INFO - Searched Medicine : Dolo 650
+2026-05-22 07:57:10,632 - INFO - Positive Search Test Passed
+2026-05-22 07:57:21,642 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-22 07:57:23,706 - INFO - Promotional Popup Closed
+2026-05-22 07:57:31,063 - INFO - Clicked Buy Medicines
+2026-05-22 07:57:33,691 - INFO - Searched Medicine : Paracetamol 500mg
+2026-05-22 07:57:36,624 - INFO - Positive Search Test Passed
+2026-05-22 07:57:49,086 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-22 07:57:51,155 - INFO - Promotional Popup Closed
+2026-05-22 07:57:57,185 - INFO - Clicked Buy Medicines
+2026-05-22 07:57:59,533 - INFO - Searched Medicine : Vicks Vaporub
+2026-05-22 07:58:02,500 - INFO - Positive Search Test Passed
+2026-05-22 07:58:14,076 - INFO - ========== ADD TO CART TEST ==========
+2026-05-22 08:06:27,507 - INFO - ========== WEBSITE LAUNCH TEST ==========
+2026-05-22 08:06:27,778 - INFO - Apollo Website Launch Test Passed
+2026-05-22 08:06:37,851 - INFO - ========== POSITIVE LOGIN TEST ==========
+2026-05-22 08:06:37,958 - INFO - Clicked Login Button
+2026-05-22 08:06:38,742 - INFO - Entered Mobile Number : 9031388089
+2026-05-22 08:06:38,840 - INFO - Clicked Continue Button
+2026-05-22 08:06:38,840 - INFO - Waiting For Manual OTP Entry
+2026-05-22 08:06:56,944 - INFO - Clicked Verify Button
+2026-05-22 08:06:57,191 - INFO - Positive Login Test Passed
+2026-05-22 08:07:08,753 - INFO - ========== NEGATIVE LOGIN TEST ==========
+2026-05-22 08:07:08,892 - INFO - Clicked Login Button
+2026-05-22 08:07:09,621 - INFO - Entered Mobile Number : 1234
+2026-05-22 08:07:37,821 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-22 08:07:39,886 - INFO - Promotional Popup Closed
+2026-05-22 08:07:45,013 - INFO - Clicked Buy Medicines
+2026-05-22 10:18:45,284 - INFO - ========== WEBSITE LAUNCH TEST ==========
+2026-05-22 10:18:45,581 - INFO - Apollo Website Launch Test Passed
+2026-05-22 10:18:54,629 - INFO - ========== POSITIVE LOGIN TEST ==========
+2026-05-22 10:18:55,052 - INFO - Clicked Login Button
+2026-05-22 10:18:55,754 - INFO - Entered Mobile Number : 9031388089
+2026-05-22 10:18:55,829 - INFO - Clicked Continue Button
+2026-05-22 10:18:55,831 - INFO - Waiting For Manual OTP Entry
+2026-05-22 10:19:14,006 - INFO - Clicked Verify Button
+2026-05-22 10:19:14,355 - INFO - Positive Login Test Passed
+2026-05-22 10:19:23,500 - INFO - ========== NEGATIVE LOGIN TEST ==========
+2026-05-22 10:19:23,588 - INFO - Clicked Login Button
+2026-05-22 10:19:24,274 - INFO - Entered Mobile Number : 1234
+2026-05-22 10:19:53,624 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-22 10:19:55,699 - INFO - Promotional Popup Closed
+2026-05-22 10:19:59,470 - INFO - Clicked Buy Medicines
+2026-05-22 10:40:30,443 - INFO - Starting Multi-Item End-to-End Test
+2026-05-22 10:40:30,483 - INFO - Apollo 24/7 website launched successfully
+2026-05-22 10:40:30,716 - INFO - Initiating Login sequence
+2026-05-22 10:40:51,904 - INFO - Login completed successfully
+2026-05-22 10:40:52,122 - INFO - Processing item 1: Dolo 650
+2026-05-22 10:41:25,141 - INFO - Processing item 2: Paracetamol 500mg
+2026-05-22 10:41:50,190 - INFO - Processing item 3: Vicks Vaporub
+2026-05-22 10:42:15,413 - INFO - Opening cart to verify and checkout
+2026-05-22 10:42:17,611 - INFO - Multi-item Checkout process initiated
+2026-05-22 14:24:21,298 - INFO - Starting Multi-Item End-to-End Test
+2026-05-22 14:24:21,311 - INFO - Apollo 24/7 website launched successfully
+2026-05-22 14:24:21,559 - INFO - Initiating Login sequence
+2026-05-22 14:24:42,512 - INFO - Login completed successfully
+2026-05-22 14:24:42,746 - INFO - Processing item 1: Dolo 650
+2026-05-22 14:25:15,086 - INFO - Processing item 2: Paracetamol 500mg
+2026-05-22 14:25:39,295 - INFO - Processing item 3: Vicks Vaporub
+2026-05-22 14:26:03,401 - INFO - Opening cart to verify and checkout
+2026-05-22 14:26:05,632 - INFO - Multi-item Checkout process initiated
+2026-05-22 15:34:59,815 - INFO - Starting Multi-Item End-to-End Test
+2026-05-22 15:34:59,831 - INFO - Apollo 24/7 website launched successfully
+2026-05-22 15:35:00,185 - INFO - Initiating Login sequence
+2026-05-22 15:35:22,521 - INFO - Login completed successfully
+2026-05-22 15:35:22,778 - INFO - Processing item 1: Dolo 650
+2026-05-22 15:36:10,316 - INFO - Starting Multi-Item End-to-End Test
+2026-05-22 15:36:10,377 - INFO - Apollo 24/7 website launched successfully
+2026-05-22 15:36:10,633 - INFO - Initiating Login sequence
+2026-05-22 15:36:58,757 - INFO - Starting Multi-Item End-to-End Test
+2026-05-22 15:36:58,768 - INFO - Apollo 24/7 website launched successfully
+2026-05-22 15:36:59,073 - INFO - Initiating Login sequence
+2026-05-22 15:37:57,855 - INFO - Starting Multi-Item End-to-End Test
+2026-05-22 15:37:57,887 - INFO - Apollo 24/7 website launched successfully
+2026-05-22 15:37:58,110 - INFO - Initiating Login sequence
+2026-05-22 15:38:19,245 - INFO - Login completed successfully
+2026-05-22 15:38:19,557 - INFO - Processing item 1: Dolo 650
+2026-05-22 15:38:52,367 - INFO - Processing item 2: Paracetamol 500mg
+2026-05-22 15:39:16,642 - INFO - Processing item 3: Vicks Vaporub
+2026-05-22 15:39:42,205 - INFO - Opening cart to verify and checkout
+2026-05-22 15:39:47,271 - INFO - Multi-item Checkout process initiated
+2026-05-22 15:49:44,925 - INFO - ========== WEBSITE LAUNCH TEST ==========
+2026-05-22 15:49:45,222 - INFO - Apollo Website Launch Test Passed
+2026-05-22 15:49:56,278 - INFO - ========== POSITIVE LOGIN TEST ==========
+2026-05-22 15:49:56,492 - INFO - Clicked Login Button
+2026-05-22 15:49:57,303 - INFO - Entered Mobile Number : 9031388089
+2026-05-22 15:49:57,447 - INFO - Clicked Continue Button
+2026-05-22 15:49:57,448 - INFO - Waiting For Manual OTP Entry
+2026-05-22 15:50:17,593 - INFO - Clicked Verify Button
+2026-05-22 15:50:17,894 - INFO - Positive Login Test Passed
+2026-05-22 15:50:28,389 - INFO - ========== NEGATIVE LOGIN TEST ==========
+2026-05-22 15:50:28,515 - INFO - Clicked Login Button
+2026-05-22 15:50:29,268 - INFO - Entered Mobile Number : 1234
+2026-05-22 15:51:00,590 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-22 15:51:02,650 - INFO - Promotional Popup Closed
+2026-05-22 15:51:07,724 - INFO - Clicked Buy Medicines
+2026-05-22 15:55:50,872 - INFO - Starting Multi-Item End-to-End Test
+2026-05-22 15:55:50,885 - INFO - Apollo 24/7 website launched successfully
+2026-05-22 15:55:51,148 - INFO - Initiating Login sequence
+2026-05-22 15:56:12,261 - INFO - Login completed successfully
+2026-05-22 15:56:12,554 - INFO - Processing item 1: Dolo 650
+2026-05-22 15:56:52,492 - INFO - Processing item 2: Paracetamol 500mg
+2026-05-22 15:57:16,914 - INFO - Processing item 3: Vicks Vaporub
+2026-05-22 15:57:42,385 - INFO - Opening cart to verify and checkout
+2026-05-22 15:57:46,034 - INFO - Multi-item Checkout process initiated
+2026-05-22 15:59:20,373 - INFO - ========== WEBSITE LAUNCH TEST ==========
+2026-05-22 15:59:21,391 - INFO - Apollo Website Launch Test Passed
+2026-05-22 15:59:33,394 - INFO - ========== POSITIVE LOGIN TEST ==========
+2026-05-22 15:59:33,508 - INFO - Clicked Login Button
+2026-05-22 15:59:34,275 - INFO - Entered Mobile Number : 9031388089
+2026-05-22 15:59:34,412 - INFO - Clicked Continue Button
+2026-05-22 15:59:34,412 - INFO - Waiting For Manual OTP Entry
+2026-05-22 15:59:54,559 - INFO - Clicked Verify Button
+2026-05-22 15:59:54,874 - INFO - Positive Login Test Passed
+2026-05-22 16:00:05,289 - INFO - ========== NEGATIVE LOGIN TEST ==========
+2026-05-22 16:00:05,409 - INFO - Clicked Login Button
+2026-05-22 16:00:06,180 - INFO - Entered Mobile Number : 1234
+2026-05-22 16:00:37,158 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-22 16:00:39,195 - INFO - Promotional Popup Closed
+2026-05-22 16:00:41,129 - INFO - Clicked Buy Medicines
+2026-05-22 16:02:56,222 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-22 16:02:58,330 - INFO - Promotional Popup Closed
+2026-05-22 16:03:04,504 - INFO - Clicked Buy Medicines
+2026-05-22 16:04:51,396 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-22 16:05:02,890 - INFO - ========== ADD TO CART TEST ==========
+2026-05-22 16:08:17,074 - INFO - Starting Multi-Item End-to-End Test
+2026-05-22 16:08:17,092 - INFO - Apollo 24/7 website launched successfully
+2026-05-22 16:08:17,491 - INFO - Initiating Login sequence

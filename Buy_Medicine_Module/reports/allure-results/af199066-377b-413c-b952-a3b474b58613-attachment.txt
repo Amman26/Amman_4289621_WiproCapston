@@ -1,0 +1,3 @@
+[32mINFO    [0m ApolloLogger:test_e2e.py:30 Starting Multi-Item End-to-End Test
+[32mINFO    [0m ApolloLogger:test_e2e.py:40 Apollo 24/7 website launched successfully
+[32mINFO    [0m ApolloLogger:test_e2e.py:44 Initiating Login sequence

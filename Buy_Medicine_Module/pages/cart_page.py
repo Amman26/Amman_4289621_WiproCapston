@@ -27,9 +27,24 @@ class CartPage(BasePage):
         return self.get_text(self.CART_PRODUCT_NAME)
 
     def proceed_to_payment(self):
-        # UPDATED WAIT: Just wait for it to exist, then force click it with JS
-        proceed_btn = self.wait.until(
-            EC.presence_of_element_located(self.PROCEED_BUTTON)
-        )
-        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", proceed_btn)
-        self.driver.execute_script("arguments[0].click();", proceed_btn)
+
+        try:
+
+            proceed_btn = self.wait.until(
+                EC.element_to_be_clickable(
+                    self.PROCEED_BUTTON
+                )
+            )
+
+            self.driver.execute_script(
+                "arguments[0].scrollIntoView({block: 'center'});",
+                proceed_btn
+            )
+
+            proceed_btn.click()
+
+        except Exception as e:
+
+            print(f"Proceed button issue: {e}")
+
+            raise

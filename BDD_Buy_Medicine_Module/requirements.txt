@@ -1,0 +1,6 @@
+selenium
+behave
+allure-behave
+webdriver-manager
+configparser
+pytest
