@@ -1,0 +1,2 @@
+[32mINFO    [0m ApolloLogger:test_all.py:77 ========== WEBSITE LAUNCH TEST ==========
+[32mINFO    [0m ApolloLogger:test_all.py:88 Apollo Website Launch Test Passed

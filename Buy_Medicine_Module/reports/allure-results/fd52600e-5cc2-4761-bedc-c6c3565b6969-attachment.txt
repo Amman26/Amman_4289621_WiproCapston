@@ -1,0 +1,3 @@
+[32mINFO    [0m ApolloLogger:test_all.py:178 ========== NEGATIVE LOGIN TEST ==========
+[32mINFO    [0m ApolloLogger:test_all.py:45 Clicked Login Button
+[32mINFO    [0m ApolloLogger:test_all.py:49 Entered Mobile Number : 1234

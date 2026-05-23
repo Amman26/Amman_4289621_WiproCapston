@@ -2,54 +2,40 @@
 Feature: Apollo 247 Functionalities
 
 
+  @smoke
   Scenario: Verify Website Launch
 
     Given User launches Apollo website
     Then Website should launch successfully
 
 
-  Scenario Outline: Positive Login Test
+  @positive @authentication
+  Scenario: Positive Login Test
 
     Given User launches Apollo website
-    When User enters mobile number "<mobile>"
-    And User completes OTP verification
+    When User performs positive login
     Then User should login successfully
 
-    Examples:
-      | mobile     |
-      | 9031388089 |
 
-
-  Scenario Outline: Negative Login Test
+  @negative @authentication
+  Scenario: Negative Login Test
 
     Given User launches Apollo website
-    When User enters invalid mobile number "<mobile>"
+    When User performs negative login
     Then Invalid login error should display
 
-    Examples:
-      | mobile |
-      | 1234   |
 
-
-  Scenario Outline: Positive Medicine Search
+  @positive @search
+  Scenario: Positive Medicine Search
 
     Given User opens Buy Medicines page
-    When User searches medicine "<medicine>"
+    When User performs positive medicine search
     Then Search results should display
 
-    Examples:
-      | medicine         |
-      | Dolo 650         |
-      | Paracetamol 500mg|
-      | Vicks Vaporub    |
 
-
-  Scenario Outline: Negative Medicine Search
+  @negative @search
+  Scenario: Negative Medicine Search
 
     Given User opens Buy Medicines page
-    When User searches invalid medicine "<medicine>"
+    When User performs negative medicine search
     Then No valid results should display
-
-    Examples:
-      | medicine |
-      | @#$$%^&* |

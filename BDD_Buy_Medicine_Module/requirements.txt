@@ -4,3 +4,4 @@ allure-behave
 webdriver-manager
 configparser
 pytest
+allure-python-commons

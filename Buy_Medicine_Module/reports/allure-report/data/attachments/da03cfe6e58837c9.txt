@@ -1,0 +1,3 @@
+[32mINFO    [0m ApolloLogger:test_all.py:228 ========== POSITIVE SEARCH TEST ==========
+[32mINFO    [0m ApolloLogger:test_all.py:237 Promotional Popup Closed
+[32mINFO    [0m ApolloLogger:test_all.py:244 Clicked Buy Medicines

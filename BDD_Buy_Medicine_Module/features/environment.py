@@ -1,18 +1,15 @@
+import time
 import allure
 
 from utils.driver_factory import get_driver
 from utils.config_reader import read_config
 from utils.screenshot_utils import capture_screenshot
-
 from pages.base_page import BasePage
 
 
 config = read_config()
 
-base_url = config.get(
-    "DEFAULT",
-    "base_url"
-)
+base_url = config.get("DEFAULT", "base_url")
 
 
 # =====================================================
@@ -27,17 +24,14 @@ def before_scenario(context, scenario):
     # OPEN APPLICATION
     context.driver.get(base_url)
 
+    # WAIT FOR REACT APP TO LOAD (IMPORTANT)
+    time.sleep(2)
+
     # CLOSE POPUP IF PRESENT
     try:
-
-        base_page = BasePage(
-            context.driver
-        )
-
+        base_page = BasePage(context.driver)
         base_page.close_promotional_popup()
-
     except Exception:
-
         pass
 
 
@@ -47,28 +41,26 @@ def before_scenario(context, scenario):
 
 def after_scenario(context, scenario):
 
-    try:
+    if hasattr(context, "driver") and context.driver:
 
-        screenshot_path = capture_screenshot(
-            context.driver,
-            scenario.name.replace(" ", "_")
-        )
-
-        # ATTACH SCREENSHOT TO ALLURE
-        with open(screenshot_path, "rb") as file:
-
-            allure.attach(
-                file.read(),
-                name=scenario.name,
-                attachment_type=allure.attachment_type.PNG
+        try:
+            screenshot_path = capture_screenshot(
+                context.driver,
+                scenario.name.replace(" ", "_")
             )
 
-    except Exception as e:
+            with open(screenshot_path, "rb") as file:
+                allure.attach(
+                    file.read(),
+                    name=scenario.name,
+                    attachment_type=allure.attachment_type.PNG
+                )
 
-        print(
-            f"Screenshot Capture Failed : {e}"
-        )
+        except Exception as e:
+            print(f"Screenshot Capture Failed : {e}")
 
-    finally:
-
-        context.driver.quit()
+        finally:
+            try:
+                context.driver.quit()
+            except Exception:
+                pass

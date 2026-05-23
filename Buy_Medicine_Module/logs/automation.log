@@ -2382,3 +2382,89 @@
 2026-05-22 16:08:17,074 - INFO - Starting Multi-Item End-to-End Test
 2026-05-22 16:08:17,092 - INFO - Apollo 24/7 website launched successfully
 2026-05-22 16:08:17,491 - INFO - Initiating Login sequence
+2026-05-23 09:41:48,096 - INFO - ========== WEBSITE LAUNCH TEST ==========
+2026-05-23 09:41:48,314 - INFO - Apollo Website Launch Test Passed
+2026-05-23 09:41:53,987 - INFO - ========== POSITIVE LOGIN TEST ==========
+2026-05-23 09:41:54,159 - INFO - Clicked Login Button
+2026-05-23 09:41:54,863 - INFO - Entered Mobile Number : 9031388089
+2026-05-23 09:41:54,999 - INFO - Clicked Continue Button
+2026-05-23 09:41:55,000 - INFO - Waiting For Manual OTP Entry
+2026-05-23 09:42:15,120 - INFO - Clicked Verify Button
+2026-05-23 09:42:15,370 - INFO - Positive Login Test Passed
+2026-05-23 09:42:25,029 - INFO - ========== NEGATIVE LOGIN TEST ==========
+2026-05-23 09:42:25,118 - INFO - Clicked Login Button
+2026-05-23 09:42:25,837 - INFO - Entered Mobile Number : 1234
+2026-05-23 09:42:54,756 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-23 09:42:56,833 - INFO - Promotional Popup Closed
+2026-05-23 09:43:01,036 - INFO - Clicked Buy Medicines
+2026-05-23 09:43:02,434 - INFO - Searched Medicine : Dolo 650
+2026-05-23 09:43:05,248 - INFO - Positive Search Test Passed
+2026-05-23 09:43:13,601 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-23 09:43:15,678 - INFO - Promotional Popup Closed
+2026-05-23 09:43:19,371 - INFO - Clicked Buy Medicines
+2026-05-23 09:43:20,486 - INFO - Searched Medicine : Paracetamol 500mg
+2026-05-23 09:43:23,422 - INFO - Positive Search Test Passed
+2026-05-23 09:43:29,466 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-23 09:43:31,537 - INFO - Promotional Popup Closed
+2026-05-23 09:43:33,684 - INFO - Clicked Buy Medicines
+2026-05-23 09:43:35,146 - INFO - Searched Medicine : Vicks Vaporub
+2026-05-23 09:44:03,985 - INFO - ========== ADD TO CART TEST ==========
+2026-05-23 09:44:08,365 - INFO - Searched Product : Dolo 650
+2026-05-23 09:45:43,118 - INFO - ========== WEBSITE LAUNCH TEST ==========
+2026-05-23 09:45:43,325 - INFO - Apollo Website Launch Test Passed
+2026-05-23 09:45:51,013 - INFO - ========== POSITIVE LOGIN TEST ==========
+2026-05-23 09:45:51,113 - INFO - Clicked Login Button
+2026-05-23 09:45:51,772 - INFO - Entered Mobile Number : 9031388089
+2026-05-23 09:45:51,840 - INFO - Clicked Continue Button
+2026-05-23 09:45:51,840 - INFO - Waiting For Manual OTP Entry
+2026-05-23 09:46:11,951 - INFO - Clicked Verify Button
+2026-05-23 09:46:12,193 - INFO - Positive Login Test Passed
+2026-05-23 09:46:20,219 - INFO - ========== NEGATIVE LOGIN TEST ==========
+2026-05-23 09:46:20,289 - INFO - Clicked Login Button
+2026-05-23 09:46:21,007 - INFO - Entered Mobile Number : 1234
+2026-05-23 09:46:49,353 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-23 09:46:51,374 - INFO - Promotional Popup Closed
+2026-05-23 09:46:55,416 - INFO - Clicked Buy Medicines
+2026-05-23 09:47:26,770 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-23 09:47:28,839 - INFO - Promotional Popup Closed
+2026-05-23 09:47:32,790 - INFO - Clicked Buy Medicines
+2026-05-23 09:50:09,306 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-23 09:50:11,380 - INFO - Promotional Popup Closed
+2026-05-23 09:50:15,072 - INFO - Clicked Buy Medicines
+2026-05-23 09:50:32,259 - INFO - ========== ADD TO CART TEST ==========
+2026-05-23 09:50:51,585 - INFO - ========== ADD TO CART TEST ==========
+2026-05-23 09:50:56,672 - INFO - Searched Product : Paracetamol 500mg
+2026-05-23 10:02:55,027 - INFO - ========== WEBSITE LAUNCH TEST ==========
+2026-05-23 10:02:55,338 - INFO - Apollo Website Launch Test Passed
+2026-05-23 10:03:04,016 - INFO - ========== POSITIVE LOGIN TEST ==========
+2026-05-23 10:03:04,121 - INFO - Clicked Login Button
+2026-05-23 10:03:04,909 - INFO - Entered Mobile Number : 9031388089
+2026-05-23 10:03:05,059 - INFO - Clicked Continue Button
+2026-05-23 10:03:05,060 - INFO - Waiting For Manual OTP Entry
+2026-05-23 10:03:31,439 - INFO - Clicked Verify Button
+2026-05-23 10:03:31,764 - INFO - Positive Login Test Passed
+2026-05-23 10:03:45,976 - INFO - ========== NEGATIVE LOGIN TEST ==========
+2026-05-23 10:03:46,068 - INFO - Clicked Login Button
+2026-05-23 10:03:46,825 - INFO - Entered Mobile Number : 1234
+2026-05-23 10:04:17,103 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-23 10:04:19,180 - INFO - Promotional Popup Closed
+2026-05-23 10:04:30,102 - INFO - Clicked Buy Medicines
+2026-05-23 10:05:10,361 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-23 10:05:12,380 - INFO - Promotional Popup Closed
+2026-05-23 10:05:16,140 - INFO - Clicked Buy Medicines
+2026-05-23 10:35:05,759 - INFO - ========== WEBSITE LAUNCH TEST ==========
+2026-05-23 10:35:06,072 - INFO - Apollo Website Launch Test Passed
+2026-05-23 10:35:16,216 - INFO - ========== POSITIVE LOGIN TEST ==========
+2026-05-23 10:35:16,317 - INFO - Clicked Login Button
+2026-05-23 10:35:17,053 - INFO - Entered Mobile Number : 9031388089
+2026-05-23 10:35:17,150 - INFO - Clicked Continue Button
+2026-05-23 10:35:17,150 - INFO - Waiting For Manual OTP Entry
+2026-05-23 10:35:37,325 - INFO - Clicked Verify Button
+2026-05-23 10:35:37,594 - INFO - Positive Login Test Passed
+2026-05-23 10:35:47,020 - INFO - ========== NEGATIVE LOGIN TEST ==========
+2026-05-23 10:35:47,107 - INFO - Clicked Login Button
+2026-05-23 10:35:47,848 - INFO - Entered Mobile Number : 1234
+2026-05-23 10:36:19,542 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-23 10:36:23,438 - INFO - Clicked Buy Medicines
+2026-05-23 10:38:04,701 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-23 10:38:10,165 - INFO - Clicked Buy Medicines
