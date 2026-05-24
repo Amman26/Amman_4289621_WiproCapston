@@ -1,3 +1,0 @@
-[32mINFO    [0m ApolloLogger:test_all.py:516 ========== ADD TO CART TEST ==========
-[32mINFO    [0m ApolloLogger:test_all.py:532 Clicked Buy Medicines
-[32mINFO    [0m ApolloLogger:test_all.py:546 Searched Product : Paracetamol 500mg

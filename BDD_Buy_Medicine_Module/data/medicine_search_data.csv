@@ -2,4 +2,7 @@ search_text,expected
 Dolo 650,success
 Paracetamol 500mg,success
 Vicks Vaporub,success
-@#$$%^&*,fail
+Crocin,success
+xyzinvalidmedicine,fail
+abcdef123,fail
+wrongtablet,fail
