@@ -1,4 +1,6 @@
 import os
+import allure
+
 from datetime import datetime
 
 
@@ -25,8 +27,16 @@ def capture_screenshot(driver, test_name):
         file_name
     )
 
+    # SAVE SCREENSHOT
     driver.save_screenshot(
         file_path
+    )
+
+    # ATTACH SCREENSHOT TO ALLURE
+    allure.attach.file(
+        file_path,
+        name=test_name,
+        attachment_type=allure.attachment_type.PNG
     )
 
     return file_path

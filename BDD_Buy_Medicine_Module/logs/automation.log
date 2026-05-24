@@ -109,3 +109,79 @@
 2026-05-23 14:06:20,529 - INFO - Adding Medicine: Vicks Vaporub
 2026-05-23 14:06:49,892 - INFO - Opening Cart
 2026-05-23 14:06:51,717 - INFO - Checkout Initiated Successfully
+2026-05-24 12:39:33,743 - INFO - Launching Apollo Website
+2026-05-24 12:39:44,857 - INFO - Launching Apollo Website
+2026-05-24 12:39:45,082 - INFO - Clicked Login Button
+2026-05-24 12:39:45,549 - INFO - Entered Mobile Number : 9031388089
+2026-05-24 12:39:45,622 - INFO - Clicked Continue Button
+2026-05-24 12:40:05,734 - INFO - Clicked Verify Button
+2026-05-24 12:40:05,944 - INFO - Positive Login Successful
+2026-05-24 12:40:21,035 - INFO - Launching Apollo Website
+2026-05-24 12:54:50,431 - INFO - Launching Apollo Website
+2026-05-24 12:54:50,845 - INFO - Website Launch Validation Completed
+2026-05-24 12:55:02,444 - INFO - Launching Apollo Website
+2026-05-24 12:55:02,754 - INFO - Clicked Login Button
+2026-05-24 12:55:03,281 - INFO - Entered Mobile Number : 7852647563
+2026-05-24 12:55:03,590 - INFO - Clicked Continue Button
+2026-05-24 12:55:03,904 - INFO - Waiting For OTP Entry
+2026-05-24 12:55:24,495 - INFO - Clicked Verify Button
+2026-05-24 12:55:24,953 - INFO - Positive Login Flow Completed
+2026-05-24 12:55:33,711 - INFO - Launching Apollo Website
+2026-05-24 12:55:34,023 - INFO - Clicked Login Button
+2026-05-24 12:55:34,324 - INFO - Entered Invalid Mobile : 12345
+2026-05-24 12:55:54,611 - WARNING - Continue Button Not Clickable : Message: 
+
+2026-05-24 12:55:57,220 - INFO - Negative Login Validation Completed
+2026-05-24 12:56:14,229 - INFO - Popup Closed
+2026-05-24 12:56:20,353 - INFO - Clicked Buy Medicines
+2026-05-24 12:56:22,349 - INFO - Searched Medicine : Dolo 650
+2026-05-24 12:56:25,038 - INFO - Searched Medicine : Paracetamol
+2026-05-24 12:56:27,778 - INFO - Searched Medicine : Crocin
+2026-05-24 12:56:30,289 - INFO - Search Result Status : True
+2026-05-24 12:56:30,465 - INFO - Positive Search Validation Completed
+2026-05-24 12:56:48,967 - INFO - Popup Closed
+2026-05-24 12:56:55,226 - INFO - Clicked Buy Medicines
+2026-05-24 12:56:57,087 - INFO - Searched Invalid Medicine : xyzinvalidmedicine
+2026-05-24 12:57:00,568 - INFO - Searched Invalid Medicine : abcdef123
+2026-05-24 12:57:03,195 - INFO - Searched Invalid Medicine : wrongtablet
+2026-05-24 12:57:31,323 - INFO - Negative Search Result : False
+2026-05-24 12:57:31,507 - INFO - Negative Search Validation Completed
+2026-05-24 12:57:41,798 - INFO - Apollo 24/7 website launched successfully
+2026-05-24 12:57:42,031 - INFO - Starting Login Process
+2026-05-24 13:05:08,664 - INFO - Launching Apollo Website
+2026-05-24 13:05:09,034 - INFO - Website Launch Validation Completed
+2026-05-24 13:05:19,868 - INFO - Launching Apollo Website
+2026-05-24 13:05:20,166 - INFO - Clicked Login Button
+2026-05-24 13:05:20,530 - INFO - Entered Mobile Number : 7852647563
+2026-05-24 13:05:20,775 - INFO - Clicked Continue Button
+2026-05-24 13:05:21,014 - INFO - Waiting For OTP Entry
+2026-05-24 13:05:41,584 - INFO - Clicked Verify Button
+2026-05-24 13:05:42,028 - INFO - Positive Login Flow Completed
+2026-05-24 13:05:50,107 - INFO - Launching Apollo Website
+2026-05-24 13:05:50,407 - INFO - Clicked Login Button
+2026-05-24 13:05:50,736 - INFO - Entered Invalid Mobile : 12345
+2026-05-24 13:06:11,330 - WARNING - Continue Button Not Clickable : Message: 
+
+2026-05-24 13:06:13,868 - INFO - Negative Login Validation Completed
+2026-05-24 13:06:30,833 - INFO - Popup Closed
+2026-05-24 13:06:36,413 - INFO - Clicked Buy Medicines
+2026-05-24 13:06:38,409 - INFO - Searched Medicine : Dolo 650
+2026-05-24 13:06:41,605 - INFO - Searched Medicine : Paracetamol
+2026-05-24 13:06:44,425 - INFO - Searched Medicine : Crocin
+2026-05-24 13:06:46,656 - INFO - Search Result Status : True
+2026-05-24 13:06:46,824 - INFO - Positive Search Validation Completed
+2026-05-24 13:07:03,696 - INFO - Popup Closed
+2026-05-24 13:07:08,521 - INFO - Clicked Buy Medicines
+2026-05-24 13:07:10,407 - INFO - Searched Invalid Medicine : xyzinvalidmedicine
+2026-05-24 13:07:13,126 - INFO - Searched Invalid Medicine : abcdef123
+2026-05-24 13:07:16,325 - INFO - Searched Invalid Medicine : wrongtablet
+2026-05-24 13:07:44,142 - INFO - Negative Search Result : False
+2026-05-24 13:07:44,300 - INFO - Negative Search Validation Completed
+2026-05-24 13:08:40,545 - INFO - Apollo 24/7 website launched successfully
+2026-05-24 13:08:40,803 - INFO - Starting Login Process
+2026-05-24 13:09:01,677 - INFO - Login Successful
+2026-05-24 13:09:01,902 - INFO - Adding Medicine: Dolo 650
+2026-05-24 13:09:42,838 - INFO - Adding Medicine: Paracetamol 500mg
+2026-05-24 13:10:11,674 - INFO - Adding Medicine: Vicks Vaporub
+2026-05-24 13:10:41,495 - INFO - Opening Cart
+2026-05-24 13:10:43,511 - INFO - Checkout Initiated Successfully
