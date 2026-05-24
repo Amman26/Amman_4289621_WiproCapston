@@ -2615,3 +2615,110 @@
 2026-05-24 09:25:28,927 - INFO - Processing item 3: Vicks Vaporub
 2026-05-24 09:25:53,430 - INFO - Opening cart to verify and checkout
 2026-05-24 09:25:55,750 - INFO - Multi-item Checkout process initiated
+2026-05-24 09:39:09,902 - INFO - ========== WEBSITE LAUNCH TEST ==========
+2026-05-24 09:39:10,160 - INFO - Website Launch Test Passed
+2026-05-24 09:39:21,106 - INFO - ========== POSITIVE LOGIN TEST ==========
+2026-05-24 09:39:21,418 - INFO - Clicked Login Button
+2026-05-24 09:39:22,330 - INFO - Entered Mobile Number : 9876543210
+2026-05-24 09:39:22,569 - INFO - Clicked Continue Button
+2026-05-24 09:39:22,826 - INFO - Waiting For Manual OTP Entry
+2026-05-24 09:39:43,276 - INFO - Clicked Verify Button
+2026-05-24 09:39:43,526 - INFO - Positive Login Test Passed
+2026-05-24 09:39:54,246 - INFO - ========== NEGATIVE LOGIN TEST ==========
+2026-05-24 09:39:54,584 - INFO - Clicked Login Button
+2026-05-24 09:39:55,036 - INFO - Entered Invalid Mobile Number : 123456789
+2026-05-24 09:39:57,392 - INFO - Negative Login Test Passed
+2026-05-24 09:40:10,958 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-24 09:40:13,242 - INFO - Popup Closed
+2026-05-24 09:40:18,764 - INFO - Clicked Buy Medicines
+2026-05-24 09:40:20,674 - INFO - Searched Medicine : Dolo 650
+2026-05-24 09:40:23,603 - INFO - Medicine Search Successful
+2026-05-24 09:40:23,740 - INFO - Positive Search Test Passed
+2026-05-24 09:40:30,795 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-24 09:40:33,105 - INFO - Popup Closed
+2026-05-24 09:40:57,457 - INFO - Clicked Buy Medicines
+2026-05-24 09:41:00,322 - INFO - Searched Medicine : Paracetamol 500mg
+2026-05-24 09:41:03,789 - INFO - Medicine Search Successful
+2026-05-24 09:41:03,935 - INFO - Positive Search Test Passed
+2026-05-24 09:41:14,623 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-24 09:41:16,905 - INFO - Popup Closed
+2026-05-24 09:41:23,185 - INFO - Clicked Buy Medicines
+2026-05-24 09:41:25,112 - INFO - Searched Medicine : Vicks Vaporub
+2026-05-24 09:41:28,699 - INFO - Medicine Search Successful
+2026-05-24 09:41:28,849 - INFO - Positive Search Test Passed
+2026-05-24 09:41:37,319 - INFO - ========== NEGATIVE SEARCH TEST ==========
+2026-05-24 09:41:39,555 - INFO - Popup Closed
+2026-05-24 09:41:43,101 - INFO - Clicked Buy Medicines
+2026-05-24 09:41:44,558 - INFO - Searched Invalid Medicine : xyzinvalidmedicine
+2026-05-24 09:42:05,252 - INFO - Negative Search Test Passed
+2026-05-24 09:42:19,341 - INFO - ========== ADD TO CART TEST ==========
+2026-05-24 09:42:26,468 - INFO - Clicked Buy Medicines
+2026-05-24 09:42:28,398 - INFO - Searched Product : Dolo 650
+2026-05-24 09:42:51,748 - INFO - Product Added To Cart
+2026-05-24 09:42:57,908 - INFO - Cart Opened Successfully
+2026-05-24 09:43:03,135 - INFO - Product In Cart : Product Added
+2026-05-24 09:43:03,227 - INFO - Add To Cart Test Passed
+2026-05-24 09:43:03,569 - INFO - Payment Process Started
+2026-05-24 09:43:16,445 - INFO - ========== ADD TO CART TEST ==========
+2026-05-24 09:43:22,682 - INFO - Clicked Buy Medicines
+2026-05-24 09:43:24,850 - INFO - Searched Product : Paracetamol 500mg
+2026-05-24 09:43:48,437 - INFO - Product Added To Cart
+2026-05-24 09:43:55,290 - INFO - Cart Opened Successfully
+2026-05-24 09:44:00,640 - INFO - Product In Cart : Product Added
+2026-05-24 09:44:00,735 - INFO - Add To Cart Test Passed
+2026-05-24 09:44:01,139 - INFO - Payment Process Started
+2026-05-24 09:44:12,633 - INFO - Starting Multi-Item End-to-End Test
+2026-05-24 09:44:12,652 - INFO - Apollo 24/7 website launched successfully
+2026-05-24 09:44:12,856 - INFO - Initiating Login sequence
+2026-05-24 10:03:15,940 - INFO - ========== WEBSITE LAUNCH TEST ==========
+2026-05-24 10:03:16,213 - INFO - Website Launch Test Passed
+2026-05-24 10:03:24,810 - INFO - ========== POSITIVE LOGIN TEST ==========
+2026-05-24 10:03:25,223 - INFO - Clicked Login Button
+2026-05-24 10:03:26,067 - INFO - Entered Mobile Number : 9876543210
+2026-05-24 10:03:26,398 - INFO - Clicked Continue Button
+2026-05-24 10:03:26,771 - INFO - Waiting For Manual OTP Entry
+2026-05-24 10:03:47,419 - INFO - Clicked Verify Button
+2026-05-24 10:03:47,655 - INFO - Positive Login Test Passed
+2026-05-24 10:03:55,590 - INFO - ========== NEGATIVE LOGIN TEST ==========
+2026-05-24 10:03:55,881 - INFO - Clicked Login Button
+2026-05-24 10:03:56,788 - INFO - Entered Invalid Mobile Number : 123456789
+2026-05-24 10:03:59,277 - INFO - Negative Login Test Passed
+2026-05-24 10:04:08,664 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-24 10:04:10,923 - INFO - Popup Closed
+2026-05-24 10:04:14,750 - INFO - Clicked Buy Medicines
+2026-05-24 10:04:16,637 - INFO - Searched Medicine : Dolo 650
+2026-05-24 10:04:19,842 - INFO - Medicine Search Successful
+2026-05-24 10:04:20,097 - INFO - Positive Search Test Passed
+2026-05-24 10:04:46,499 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-24 10:04:48,780 - INFO - Popup Closed
+2026-05-24 10:04:52,795 - INFO - Clicked Buy Medicines
+2026-05-24 10:04:54,756 - INFO - Searched Medicine : Paracetamol 500mg
+2026-05-24 10:04:57,718 - INFO - Medicine Search Successful
+2026-05-24 10:04:57,843 - INFO - Positive Search Test Passed
+2026-05-24 10:05:06,377 - INFO - ========== POSITIVE SEARCH TEST ==========
+2026-05-24 10:05:08,680 - INFO - Popup Closed
+2026-05-24 10:05:12,268 - INFO - Clicked Buy Medicines
+2026-05-24 10:05:13,722 - INFO - Searched Medicine : Vicks Vaporub
+2026-05-24 10:05:34,101 - WARNING - Medicine Search Result Not Found
+2026-05-24 10:05:34,248 - INFO - Positive Search Test Passed
+2026-05-24 10:05:43,161 - INFO - ========== NEGATIVE SEARCH TEST ==========
+2026-05-24 10:05:45,468 - INFO - Popup Closed
+2026-05-24 10:05:46,943 - INFO - Clicked Buy Medicines
+2026-05-24 10:05:48,755 - INFO - Searched Invalid Medicine : xyzinvalidmedicine
+2026-05-24 10:06:09,597 - INFO - Negative Search Test Passed
+2026-05-24 10:06:18,921 - INFO - ========== ADD TO CART TEST ==========
+2026-05-24 10:06:23,579 - INFO - Clicked Buy Medicines
+2026-05-24 10:06:25,429 - INFO - Searched Product : Dolo 650
+2026-05-24 10:06:48,538 - INFO - Product Added To Cart
+2026-05-24 10:06:54,790 - INFO - Cart Opened Successfully
+2026-05-24 10:07:00,061 - INFO - Product In Cart : Product Added
+2026-05-24 10:07:00,141 - INFO - Add To Cart Test Passed
+2026-05-24 10:07:00,372 - INFO - Payment Process Started
+2026-05-24 10:07:08,517 - INFO - ========== ADD TO CART TEST ==========
+2026-05-24 10:07:12,711 - INFO - Clicked Buy Medicines
+2026-05-24 10:07:14,433 - INFO - Searched Product : Paracetamol 500mg
+2026-05-24 10:07:43,519 - INFO - Starting Multi-Item End-to-End Test
+2026-05-24 10:07:43,536 - INFO - Apollo 24/7 website launched successfully
+2026-05-24 10:07:43,742 - INFO - Initiating Login sequence
+2026-05-24 10:08:04,842 - INFO - Login completed successfully
+2026-05-24 10:08:05,065 - INFO - Processing item 1: Dolo 650

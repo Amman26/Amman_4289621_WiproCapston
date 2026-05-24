@@ -1,0 +1,5 @@
+[32mINFO    [0m ApolloLogger:test_all.py:422 ========== NEGATIVE SEARCH TEST ==========
+[32mINFO    [0m ApolloLogger:test_all.py:436 Popup Closed
+[32mINFO    [0m ApolloLogger:test_all.py:448 Clicked Buy Medicines
+[32mINFO    [0m ApolloLogger:test_all.py:462 Searched Invalid Medicine : xyzinvalidmedicine
+[32mINFO    [0m ApolloLogger:test_all.py:482 Negative Search Test Passed

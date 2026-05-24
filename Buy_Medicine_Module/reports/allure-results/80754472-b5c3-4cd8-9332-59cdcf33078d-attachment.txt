@@ -1,8 +1,0 @@
-[32mINFO    [0m ApolloLogger:test_all.py:494 ========== ADD TO CART TEST ==========
-[32mINFO    [0m ApolloLogger:test_all.py:510 Clicked Buy Medicines
-[32mINFO    [0m ApolloLogger:test_all.py:524 Searched Product : Paracetamol 500mg
-[32mINFO    [0m ApolloLogger:test_all.py:536 Product Added To Cart
-[32mINFO    [0m ApolloLogger:test_all.py:551 Cart Opened Successfully
-[32mINFO    [0m ApolloLogger:test_all.py:571 Product In Cart : Product Added
-[32mINFO    [0m ApolloLogger:test_all.py:583 Add To Cart Test Passed
-[32mINFO    [0m ApolloLogger:test_all.py:595 Payment Process Started

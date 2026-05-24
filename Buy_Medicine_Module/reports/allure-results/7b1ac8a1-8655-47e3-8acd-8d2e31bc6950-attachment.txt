@@ -1,5 +1,0 @@
-[32mINFO    [0m ApolloLogger:test_all.py:312 ========== POSITIVE SEARCH TEST ==========
-[32mINFO    [0m ApolloLogger:test_all.py:326 Popup Closed
-[32mINFO    [0m ApolloLogger:test_all.py:338 Clicked Buy Medicines
-[32mINFO    [0m ApolloLogger:test_all.py:352 Searched Medicine : Dolo 650
-[32mINFO    [0m ApolloLogger:test_all.py:371 Positive Search Test Passed

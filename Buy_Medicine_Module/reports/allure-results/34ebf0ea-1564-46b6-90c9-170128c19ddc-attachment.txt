@@ -1,0 +1,8 @@
+[32mINFO    [0m ApolloLogger:test_all.py:516 ========== ADD TO CART TEST ==========
+[32mINFO    [0m ApolloLogger:test_all.py:532 Clicked Buy Medicines
+[32mINFO    [0m ApolloLogger:test_all.py:546 Searched Product : Dolo 650
+[32mINFO    [0m ApolloLogger:test_all.py:558 Product Added To Cart
+[32mINFO    [0m ApolloLogger:test_all.py:573 Cart Opened Successfully
+[32mINFO    [0m ApolloLogger:test_all.py:593 Product In Cart : Product Added
+[32mINFO    [0m ApolloLogger:test_all.py:605 Add To Cart Test Passed
+[32mINFO    [0m ApolloLogger:test_all.py:617 Payment Process Started

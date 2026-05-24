@@ -1,0 +1,6 @@
+[32mINFO    [0m ApolloLogger:test_all.py:312 ========== POSITIVE SEARCH TEST ==========
+[32mINFO    [0m ApolloLogger:test_all.py:326 Popup Closed
+[32mINFO    [0m ApolloLogger:test_all.py:338 Clicked Buy Medicines
+[32mINFO    [0m ApolloLogger:test_all.py:352 Searched Medicine : Vicks Vaporub
+[33mWARNING [0m ApolloLogger:test_all.py:382 Medicine Search Result Not Found
+[32mINFO    [0m ApolloLogger:test_all.py:393 Positive Search Test Passed

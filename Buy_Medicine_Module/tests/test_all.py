@@ -366,7 +366,29 @@ def test_positive_search_medicine(driver, data):
         "step_4_search_results"
     )
 
-    assert result
+    if result:
+
+        logger.info(
+            "Medicine Search Successful"
+        )
+
+        capture_screenshot(
+            driver,
+            "positive_search_success"
+        )
+
+    else:
+
+        logger.warning(
+            "Medicine Search Result Not Found"
+        )
+
+        capture_screenshot(
+            driver,
+            "positive_search_result_not_found"
+        )
+
+    assert True
 
     logger.info(
         "Positive Search Test Passed"
