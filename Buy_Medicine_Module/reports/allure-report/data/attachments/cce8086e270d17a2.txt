@@ -1,0 +1,9 @@
+[32mINFO    [0m ApolloLogger:test_e2e.py:30 Starting Multi-Item End-to-End Test
+[32mINFO    [0m ApolloLogger:test_e2e.py:40 Apollo 24/7 website launched successfully
+[32mINFO    [0m ApolloLogger:test_e2e.py:44 Initiating Login sequence
+[32mINFO    [0m ApolloLogger:test_e2e.py:53 Login completed successfully
+[32mINFO    [0m ApolloLogger:test_e2e.py:63 Processing item 1: Dolo 650
+[32mINFO    [0m ApolloLogger:test_e2e.py:63 Processing item 2: Paracetamol 500mg
+[32mINFO    [0m ApolloLogger:test_e2e.py:63 Processing item 3: Vicks Vaporub
+[32mINFO    [0m ApolloLogger:test_e2e.py:84 Opening cart to verify and checkout
+[32mINFO    [0m ApolloLogger:test_e2e.py:89 Multi-item Checkout process initiated

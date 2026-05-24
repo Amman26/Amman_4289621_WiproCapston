@@ -1,0 +1,7 @@
+[32mINFO    [0m ApolloLogger:test_all.py:148 ========== POSITIVE LOGIN TEST ==========
+[32mINFO    [0m ApolloLogger:test_all.py:60 Clicked Login Button
+[32mINFO    [0m ApolloLogger:test_all.py:74 Entered Mobile Number : 9876543210
+[32mINFO    [0m ApolloLogger:test_all.py:86 Clicked Continue Button
+[32mINFO    [0m ApolloLogger:test_all.py:165 Waiting For Manual OTP Entry
+[32mINFO    [0m ApolloLogger:test_all.py:188 Clicked Verify Button
+[32mINFO    [0m ApolloLogger:test_all.py:200 Positive Login Test Passed

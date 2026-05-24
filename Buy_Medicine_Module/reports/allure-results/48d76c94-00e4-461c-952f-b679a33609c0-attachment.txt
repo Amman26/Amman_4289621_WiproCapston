@@ -1,0 +1,4 @@
+[32mINFO    [0m ApolloLogger:test_all.py:227 ========== NEGATIVE LOGIN TEST ==========
+[32mINFO    [0m ApolloLogger:test_all.py:241 Clicked Login Button
+[32mINFO    [0m ApolloLogger:test_all.py:255 Entered Invalid Mobile Number : 123456789
+[32mINFO    [0m ApolloLogger:test_all.py:275 Negative Login Test Passed
